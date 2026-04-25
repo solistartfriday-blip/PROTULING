@@ -1,18 +1,93 @@
-function showScreen(screenId) {
-  document.querySelectorAll(".screen").forEach(screen => {
-    screen.classList.remove("active");
-  });
-
-  document.getElementById(screenId).classList.add("active");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-function inputNama() {
-  const nama = prompt("Masukkan nama:");
-  if (nama) {
-    alert("Selamat datang, " + nama);
-  }
+body {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #dff5d8;
+  font-family: Arial, sans-serif;
 }
 
-function keluarApp() {
-  alert("Terima kasih telah menggunakan aplikasi.");
+.screen {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  display: none;
+}
+
+.screen.active {
+  display: block;
+}
+
+.bg {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+button {
+  position: absolute;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* ================= DESKTOP 1 ================= */
+.protuipa {
+  width: 22%;
+  height: 8%;
+  left: 24%;
+  top: 52%;
+}
+
+.protuling {
+  width: 24%;
+  height: 8%;
+  left: 54%;
+  top: 52%;
+}
+
+.nama {
+  width: 18%;
+  height: 6%;
+  left: 58%;
+  top: 82%;
+}
+
+.keluar {
+  width: 16%;
+  height: 6%;
+  left: 28%;
+  top: 82%;
+}
+
+/* ================= SCREEN 2 ================= */
+.back-btn {
+  width: 18.8%;
+  height: 8%;
+  left: 17.4%;
+  top: 85.9%;
+}
+
+.play-btn {
+  width: 26.2%;
+  height: 11.2%;
+  left: 25.4%;
+  top: 68.2%;
+}
+
+/* ================= SCREEN 3 ================= */
+/* tombol kembali ke screen 2 */
+.back-to-screen2 {
+  width: 9%;
+  height: 16%;
+  left: 11.5%;
+  top: 53%;
 }
