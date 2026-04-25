@@ -2,20 +2,35 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PROTULING</title>
+  <title>Simulasi App</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="game-container">
-    <img src="https://i.imgur.com/JV4grAB.png" alt="Menu PROTULING" class="main-bg">
+  <!-- DESKTOP 1 -->
+  <div class="screen active" id="screen1">
+    <img src="https://i.imgur.com/JV4grAB.png" class="bg" alt="Desktop 1">
 
-    <!-- Tombol transparan -->
-    <button class="btn protuipa" onclick="klikTombol('PROTUIPA')"></button>
-    <button class="btn protuling" onclick="klikTombol('PROTULING')"></button>
-    <button class="btn keluar" onclick="klikTombol('KELUAR')"></button>
-    <button class="btn nama" onclick="klikTombol('NAMA')"></button>
+    <button class="protuipa" onclick="showScreen('screen2')"></button>
+    <button class="protuling" onclick="alert('Halaman PROTULING belum dibuat')"></button>
+    <button class="nama" onclick="inputNama()"></button>
+    <button class="keluar" onclick="keluarApp()"></button>
+  </div>
+
+  <!-- SCREEN 2 -->
+  <div class="screen" id="screen2">
+    <img src="https://i.imgur.com/cMtVpjY.jpeg" class="bg" alt="Screen 2">
+
+    <button class="back-btn" onclick="showScreen('screen1')"></button>
+    <button class="play-btn" onclick="showScreen('screen3')"></button>
+  </div>
+
+  <!-- SCREEN 3 -->
+  <div class="screen" id="screen3">
+    <img src="https://i.imgur.com/cMb7nR4.jpeg" class="bg" alt="Screen 3">
+
+    <!-- tombol kembali ke screen 2 -->
+    <button class="back-to-screen2" onclick="showScreen('screen2')"></button>
   </div>
 
   <script src="script.js"></script>
