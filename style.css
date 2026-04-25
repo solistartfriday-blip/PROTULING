@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #d6f0c7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.game-container {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.main-bg {
+  width: 100%;
+  display: block;
+}
+
+/* Tombol transparan */
+.btn {
+  position: absolute;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Sesuaikan posisi tombol berdasarkan gambar */
+.protuipa {
+  width: 22%;
+  height: 8%;
+  left: 24%;
+  top: 52%;
+}
+
+.protuling {
+  width: 24%;
+  height: 8%;
+  left: 54%;
+  top: 52%;
+}
+
+.keluar {
+  width: 16%;
+  height: 6%;
+  left: 28%;
+  top: 82%;
+}
+
+.nama {
+  width: 18%;
+  height: 6%;
+  left: 58%;
+  top: 82%;
+}
