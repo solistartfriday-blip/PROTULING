@@ -5,34 +5,41 @@
 }
 
 body {
-  background: #d6f0c7;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  overflow-x: hidden;
+  background: #dff5d8;
+  font-family: Arial, sans-serif;
 }
 
-.game-container {
+.screen {
   position: relative;
   width: 100%;
   max-width: 1400px;
+  display: none;
 }
 
-.main-bg {
-  width: 100%;
+.screen.active {
   display: block;
 }
 
-/* Tombol transparan */
-.btn {
+.bg {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+button {
   position: absolute;
   background: transparent;
   border: none;
   cursor: pointer;
 }
 
-/* Sesuaikan posisi tombol berdasarkan gambar */
+/* ================= DESKTOP 1 ================= */
 .protuipa {
   width: 22%;
   height: 8%;
@@ -47,6 +54,13 @@ body {
   top: 52%;
 }
 
+.nama {
+  width: 18%;
+  height: 6%;
+  left: 58%;
+  top: 82%;
+}
+
 .keluar {
   width: 16%;
   height: 6%;
@@ -54,9 +68,26 @@ body {
   top: 82%;
 }
 
-.nama {
-  width: 18%;
-  height: 6%;
-  left: 58%;
-  top: 82%;
+/* ================= SCREEN 2 ================= */
+.back-btn {
+  width: 18.8%;
+  height: 8%;
+  left: 17.4%;
+  top: 85.9%;
+}
+
+.play-btn {
+  width: 26.2%;
+  height: 11.2%;
+  left: 25.4%;
+  top: 68.2%;
+}
+
+/* ================= SCREEN 3 ================= */
+/* tombol kembali ke screen 2 */
+.back-to-screen2 {
+  width: 9%;
+  height: 16%;
+  left: 11.5%;
+  top: 53%;
 }
