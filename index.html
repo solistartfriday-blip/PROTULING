@@ -1,38 +1,96 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <title>Simulasi App</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<link rel="stylesheet" href="style.css">
+
+
 
   <!-- DESKTOP 1 -->
   <div class="screen active" id="screen1">
-    <img src="https://i.imgur.com/JV4grAB.png" class="bg" alt="Desktop 1">
+    <img src="https://i.imgur.com/JV4grAB.png" class="bg">
 
     <button class="protuipa" onclick="showScreen('screen2')"></button>
     <button class="protuling" onclick="alert('Halaman PROTULING belum dibuat')"></button>
-    <button class="nama" onclick="inputNama()"></button>
+    <button class="nama" onclick="showScreen('screen4')"></button>
     <button class="keluar" onclick="keluarApp()"></button>
   </div>
 
   <!-- SCREEN 2 -->
   <div class="screen" id="screen2">
-    <img src="https://i.imgur.com/cMtVpjY.jpeg" class="bg" alt="Screen 2">
+    <img src="https://i.imgur.com/cMtVpjY.jpeg" class="bg">
 
     <button class="back-btn" onclick="showScreen('screen1')"></button>
-    <button class="play-btn" onclick="showScreen('screen3')"></button>
+    <button class="play-btn" onclick="cekNamaSebelumMain()"></button>
   </div>
 
   <!-- SCREEN 3 -->
   <div class="screen" id="screen3">
-    <img src="https://i.imgur.com/cMb7nR4.jpeg" class="bg" alt="Screen 3">
+    <img src="https://i.imgur.com/cMb7nR4.jpeg" class="bg">
 
-    <!-- tombol kembali ke screen 2 -->
-    <button class="back-to-screen2" onclick="showScreen('screen2')"></button>
+    <button class="back-btn" onclick="showScreen('screen2')"></button>
+
+    <button class="btn-angka1" onclick="showScreen('screen5')"></button>
+
+    <button class="btn-data" onclick="bukaData()"></button>
+
+     <!-- 🔥 TAMBAHAN DI SINI -->
+  <button class="home-screen3" onclick="showScreen('screen1')"></button>
   </div>
 
+  <!-- SCREEN 4 -->
+  <div class="screen" id="screen4">
+    <img src="https://i.imgur.com/t7Q9ksw.jpeg" class="bg">
+
+    <input type="text" id="namaInput" placeholder="Nama">
+
+    <button class="submit-nama" onclick="mulaiApp()"></button>
+
+    <button class="back-btn" onclick="showScreen('screen1')"></button>
+    
+    <button class="home-screen4" onclick="showScreen('screen1')"></button>
+  </div>
+
+  <!-- SCREEN 5 -->
+  <div class="screen" id="screen5">
+    <img src="https://i.imgur.com/qoEcj1Z.jpeg" class="bg">
+
+    <button class="to-screen3-a" onclick="showScreen('screen3')"></button>
+
+    <button class="to-screen1" onclick="showScreen('screen1')"></button>
+
+     <button class="to-screen3-b" onclick="showScreen('screen3')"></button>
+
+     <button id="btnUlang" onclick="btnUlang()"></button>
+<div>
+    <!-- GAMBAR HEWAN -->
+  <img src="https://i.imgur.com/aXngZks.png" class="hewan singa" draggable="false">
+  <img src="https://i.imgur.com/Hi9KFpZ.png" class="hewan ular" draggable="false">
+  <img src="https://i.imgur.com/RlKZVI8.png" class="hewan ikan" draggable="false">
+  <img src="https://i.imgur.com/dq0Tnx9.png" class="hewan ayam" draggable="false">
+  <img src="https://i.imgur.com/bX3HgwO.png" class="hewan kalajengking" draggable="false">
+  <img src="https://i.imgur.com/E1lCvOW.png" class="hewan capung" draggable="false">
+  <img src="https://i.imgur.com/bLQvT3Z.png" class="hewan kuda" draggable="false">
+  <img src="https://i.imgur.com/NTydY14.png" class="hewan sapi" draggable="false">
+
+  <!-- KERANJANG -->
+  <img src="https://i.imgur.com/IFj8hF0.png" class="keranjang ksinga">
+  <img src="https://i.imgur.com/P8G0uv1.png" class="keranjang kular">
+  <img src="https://i.imgur.com/qUWEbsn.png" class="keranjang kikan">
+  <img src="https://i.imgur.com/sHLOyk4.png" class="keranjang kayam">
+  <img src="https://i.imgur.com/3YGTVGS.png" class="keranjang kkalajengking">
+  <img src="https://i.imgur.com/nFp1eEe.png" class="keranjang kcapung">
+  <img src="https://i.imgur.com/FNv0X0x.png" class="keranjang kkuda">
+  <img src="https://i.imgur.com/nbSOei5.png" class="keranjang ksapi">
+</div>
+
+<!-- SCREEN 6 -->
+  <div class="screen" id="screen6">
+    <img src="https://i.imgur.com/NEZZYZV.jpeg" class="bg">
+
+    <div id="tampilNama"></div>
+
+    <button class="back-btn" onclick="showScreen('screen5')"></button>
+
+    <!-- 🔥 TAMBAHAN -->
+    <button class="home-btn" onclick="kembaliKeHome()"></button>
+  </div>
+  
+
   <script src="script.js"></script>
-</body>
-</html>
