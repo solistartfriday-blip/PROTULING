@@ -1,6 +1,3 @@
-// ============================
-// NAVIGASI (TIDAK DIUBAH)
-// ============================
 function showScreen(screenId) {
   document.querySelectorAll(".screen").forEach(screen => {
     screen.classList.remove("active");
@@ -8,12 +5,16 @@ function showScreen(screenId) {
 
   document.getElementById(screenId).classList.add("active");
 
+  // tampilkan nama di screen6
   if (screenId === "screen6") {
-    const nama = localStorage.getItem("namaUser") || "";
-    document.getElementById("tampilNama").innerText = nama;
-  }
+  const nama = localStorage.getItem("namaUser") || "";
+  const skor = localStorage.getItem("skorGame") || 0;
 
-  if (screenId === "screen4") {
+  document.getElementById("tampilNama").innerText = "Nama: " + nama;
+  document.getElementById("tampilNilai").innerText = "level 1: " + skor;
+}
+  
+if (screenId === "screen4") {
     setTimeout(() => {
       document.getElementById("namaInput").focus();
     }, 300);
@@ -31,6 +32,7 @@ function mulaiApp() {
   }
 }
 
+/* 🔥 FIX DI SINI (pakai localStorage) */
 function cekNamaSebelumMain() {
   const nama = localStorage.getItem("namaUser");
 
@@ -42,10 +44,15 @@ function cekNamaSebelumMain() {
   }
 }
 
+/* 🔥 FIX DI SINI */
 function bukaData() {
-  const nama = localStorage.getItem("namaUser");
+  const nama = localStorage.getItem("namaUser") || "";
+  const skor = localStorage.getItem("skorGame") || 0;
 
-  if (nama && nama.trim() !== "") {
+  if (nama.trim() !== "") {
+    document.getElementById("tampilNama").innerText = "Nama: " + nama;
+    document.getElementById("tampilNilai").innerText = "Skor: " + skor;
+
     showScreen("screen6");
   } else {
     alert("Isi nama dulu sebelum membuka data!");
@@ -53,17 +60,34 @@ function bukaData() {
   }
 }
 
+/* 🔥 TAMBAHAN */
 function kembaliKeHome() {
   showScreen("screen1");
 }
 
+/* 🔥 FIX AGAR DATA HILANG */
 function keluarApp() {
   localStorage.removeItem("namaUser");
   alert("Terima kasih telah menggunakan aplikasi.");
 }
 
 // ============================
-// TOMBOL ULANG (FIX FINAL)
+// 🔥 SISTEM NILAI (BARU)
+// ============================
+function updateNilai(sudahBenar) {
+  const total = Object.keys(sudahBenar).length;
+  const benar = Object.values(sudahBenar).filter(v => v === true).length;
+  const skor = Math.round((benar / total) * 100);
+
+  const el = document.getElementById("nilaiGame");
+  if (el) el.innerText = skor;
+
+  // 🔥 TAMBAHAN: simpan skor
+  localStorage.setItem("skorGame", skor);
+}
+
+// ============================
+// TOMBOL ULANG (TIDAK DIUBAH)
 // ============================
 function tampilkanTombolUlang() {
   const btn = document.getElementById("btnUlang");
@@ -94,6 +118,10 @@ function mainUlang() {
       window.sudahBenarGlobal[k] = false;
     });
   }
+
+  // 🔥 RESET NILAI
+  const el = document.getElementById("nilaiGame");
+  if (el) el.innerText = "0";
 }
 
 // ============================
@@ -119,7 +147,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let offsetX = 0;
   let offsetY = 0;
 
-  // 🔥 GLOBAL STATE
+  // GLOBAL STATE
   if (!window.sudahBenarGlobal) {
     window.sudahBenarGlobal = {};
   }
@@ -129,27 +157,22 @@ document.addEventListener("DOMContentLoaded", () => {
     sudahBenar[k] = false;
   });
 
-  // 🔥 SIMPAN POSISI AWAL DARI CSS
+  // SIMPAN POSISI AWAL
   semuaHewan.forEach(h => {
     const style = window.getComputedStyle(h);
     h.dataset.startLeft = style.left;
     h.dataset.startTop = style.top;
   });
 
-  // ======================
-  // 🔥 FIX BESAR: TOMBOL SELALU AKTIF
-  // ======================
+  // 🔥 TOMBOL SELALU AKTIF
   const btnUlang = document.getElementById("btnUlang");
   if (btnUlang) {
-    btnUlang.style.display = "block"; // 🔥 selalu muncul
+    btnUlang.style.display = "block";
     btnUlang.addEventListener("click", mainUlang);
   }
 
-  // ======================
   // START DRAG
-  // ======================
   semuaHewan.forEach(hewan => {
-
     hewan.addEventListener("mousedown", (e) => {
       e.preventDefault();
 
@@ -170,9 +193,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // ======================
   // DRAGGING
-  // ======================
   document.addEventListener("mousemove", (e) => {
     if (!active) return;
 
@@ -187,9 +208,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // ======================
-  // RESET SEMUA
-  // ======================
+  // RESET
   function resetSemuaHewan() {
     semuaHewan.forEach(h => {
       h.style.left = h.dataset.startLeft;
@@ -201,11 +220,11 @@ document.addEventListener("DOMContentLoaded", () => {
     Object.keys(sudahBenar).forEach(k => {
       sudahBenar[k] = false;
     });
+
+    updateNilai(sudahBenar);
   }
 
-  // ======================
   // DROP
-  // ======================
   document.addEventListener("mouseup", (e) => {
     if (!active) return;
 
@@ -246,6 +265,9 @@ document.addEventListener("DOMContentLoaded", () => {
         hewan.style.cursor = "default";
 
         sudahBenar[namaHewan] = true;
+
+        // 🔥 UPDATE NILAI
+        updateNilai(sudahBenar);
       }
     });
 
