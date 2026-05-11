@@ -7,9 +7,12 @@
     <img src="https://i.imgur.com/JV4grAB.png" class="bg">
 
     <button class="protuipa" onclick="showScreen('screen2')"></button>
-    <button class="protuling" onclick="alert('Halaman PROTULING belum dibuat')"></button>
+    
     <button class="nama" onclick="showScreen('screen4')"></button>
     <button class="keluar" onclick="keluarApp()"></button>
+  
+  <button class="to-screen72" onclick="showScreen('screen72')"></button>
+  
   </div>
 
   <!-- SCREEN 2 -->
@@ -22,7 +25,12 @@
 
   <!-- SCREEN 3 -->
   <div class="screen" id="screen3">
-    <img src="https://i.imgur.com/cMb7nR4.jpeg" class="bg">
+    <img src="https://i.imgur.com/WqXl3z8.jpeg" class="bg">
+
+    <button class="btn-screen31-from3"
+    onclick="showScreen('screen31')">
+  </button>
+
 
     <button class="back-btn" onclick="showScreen('screen2')"></button>
 
@@ -30,8 +38,29 @@
 
     <button class="btn-data" onclick="bukaData()"></button>
 
-     <!-- 🔥 TAMBAHAN DI SINI -->
   <button class="home-screen3" onclick="showScreen('screen1')"></button>
+
+  <button class="to-level2-screen3" onclick="showScreen('screen16')"></button>
+
+  <button id="btnLevel3" onclick="showScreen('screen26')"></button>
+
+  <button class="bottom-to-screen61-from3"
+  onclick="showScreen('screen61')">
+</button>
+
+<button class="nav-level5-btn" onclick="showScreen('screen40')">
+</button>
+<button class="bottom-btn-3-to45"></button>
+<button class="to-screen50-from3" onclick="showScreen('screen50')"></button>
+<button class="btn-screen5-from3" onclick="showScreen('screen55')"></button>
+<button class="btn-screen55-from3" onclick="showScreen('screen55')"></button>
+  <button class="bottom-to-screen66-from3"
+  onclick="showScreen('screen66')">
+</button>
+
+<button class="btn-level67" onclick="showScreen('screen67')">
+</button>
+  
   </div>
 
   <!-- SCREEN 4 -->
@@ -40,26 +69,61 @@
 
     <input type="text" id="namaInput" placeholder="Nama">
 
-    <button class="submit-nama" onclick="mulaiApp()"></button>
+    <button id="btnUlang" onclick="ulangGame()">Ulang</button>
 
     <button class="back-btn" onclick="showScreen('screen1')"></button>
     
     <button class="home-screen4" onclick="showScreen('screen1')"></button>
+
+    <button class="submit-nama" onclick="mulaiApp()"></button>
+
+    <button class="btn-lanjut" onclick="kePilihLevel()"></button>
   </div>
 
   <!-- SCREEN 5 -->
   <div class="screen" id="screen5">
     <img src="https://i.imgur.com/qoEcj1Z.jpeg" class="bg">
 
+
+
+
     <button class="to-screen3-a" onclick="showScreen('screen3')"></button>
 
     <button class="to-screen1" onclick="showScreen('screen1')"></button>
 
      <button class="to-screen3-b" onclick="showScreen('screen3')"></button>
+      <button id="btnUlang" class="btn-ulang" onclick="mainUlang()">
+  </button>
 
-     <button id="btnUlang" onclick="btnUlang()"></button>
+    <button class="btn-pena" onclick="showScreen('screen15')"></button>
+
+
+    <button class="to-level16" onclick="showScreen('screen16')"></button>
 
      <div id="nilaiGame">0</div>
+
+     <button class="to-screen7-a" onclick="showScreen('screen7')"></button>
+
+
+
+
+<div class="keranjang ksinga" style="left:100px; top:100px; width:50px; height:50px;"></div>
+
+<div class="keranjang kular" style="left:200px; top:100px; width:50px; height:50px;"></div>
+
+<div class="keranjang kikan" style="left:300px; top:100px; width:50px; height:50px;"></div>
+
+<div class="keranjang kayam" style="left:400px; top:100px; width:50px; height:50px;"></div>
+
+<div class="keranjang kkalajengking" style="left:100px; top:200px; width:50px; height:50px;"></div>
+
+<div class="keranjang kcapung" style="left:200px; top:200px; width:50px; height:50px;"></div>
+
+<div class="keranjang kkuda" style="left:300px; top:200px; width:50px; height:50px;"></div>
+
+<div class="keranjang ksapi" style="left:400px; top:200px; width:50px; height:50px;"></div>
+
+
 
     <!-- GAMBAR HEWAN -->
   <img src="https://i.imgur.com/aXngZks.png" class="hewan singa" draggable="false">
@@ -89,12 +153,1120 @@
 
     <div id="tampilNama"></div>
     <div id="tampilNilai"></div>
-
+  <div id="tampilPena"></div>
+   <div id="tampilNilai2"></div>
+<div id="tampilNilai3">Level 3: 0</div>
     <button class="back-btn" onclick="showScreen('screen5')"></button>
 
     <!--  TAMBAHAN -->
     <button class="home-btn" onclick="kembaliKeHome()"></button>
-  </div>
+   <!--  btn to-screen7 -->
+<p id="tampilNilai4">Level 4: 0</p>
+<div id="tampilNilai5"></div>
+<div id="tampilNilai6">Level 6: 0</div>
+<div id="tampilNilai7">Level 7: 0</div>
+<div id="tampilNilai8">
+  Level 8: 0
+</div>
+<div id="tampilNilai9">Level 9: 0</div>
+
+<div id="tampilNilai66">Level 10 (): 0</div>
+<div id="nilaiGameLevel67" class="level-title">Level 10 B - 0</div>
+</div>
+
+<!-- SCREEN 7 -->
+<div class="screen" id="screen7">
+  <img src="https://i.imgur.com/yJc9XYT.jpeg" class="bg">
+
+<button class="to-screen14" onclick="showScreen('screen14')"></button>
+
+ 
+ <button class="to-screen5-b" onclick="showScreen('screen5')"></button>
+
+<button class="to-screen8" onclick="showScreen('screen8')"></button>
+</div>
 
 
-  <script src="script.js"></script>
+
+<!-- SCREEN 8 -->
+<div class="screen" id="screen8">
+  <img src="https://i.imgur.com/tRxDxBv.jpeg" class="bg">
+
+ <button class="to-screen5-c" onclick="showScreen('screen5')"></button>
+
+<button class="to-screen7" onclick="showScreen('screen7')"></button>
+
+<button class="to-screen9" onclick="showScreen('screen9')"></button>
+</div>
+
+  <!-- SCREEN 9 -->
+<div class="screen" id="screen9">
+  <img src="https://i.imgur.com/2WjvZcJ.jpeg" class="bg">
+
+<button class="to-screen8" onclick="showScreen('screen8')"></button>
+
+<button class="to-screen5-d" onclick="showScreen('screen5')"></button>
+
+<button class="to-screen10" onclick="showScreen('screen10')"></button>
+</div>
+
+<!-- SCREEN 10 -->
+<div class="screen" id="screen10">
+  <img src="https://i.imgur.com/xXDflln.jpeg" class="bg">
+
+<button class="to-screen5-e" onclick="showScreen('screen5')"></button>
+
+<button class="to-screen5-d" onclick="showScreen('screen5')"></button>
+
+<button class="to-screen9" onclick="showScreen('screen9')"></button>
+
+<button class="to-screen11" onclick="showScreen('screen11')"></button>
+</div>
+
+<!-- SCREEN 11 sapi -->
+<div class="screen" id="screen11">
+  <img src="https://i.imgur.com/n4d01eo.jpeg" class="bg">
+
+<button class="to-screen5-e" onclick="showScreen('screen5')"></button>
+
+<button class="to-screen10" onclick="showScreen('screen10')"></button>
+
+<button class="to-screen12" onclick="showScreen('screen12')"></button>
+</div>
+
+<!-- SCREEN 12 ayam -->
+<div class="screen" id="screen12">
+  <img src="https://i.imgur.com/6OjJib8.jpeg" class="bg">
+
+<button class="to-screen5-e" onclick="showScreen('screen5')"></button>
+
+<button class="to-screen5-f" onclick="showScreen('screen5')"></button>
+
+<button class="to-screen11" onclick="showScreen('screen11')"></button>
+
+<button class="to-screen13" onclick="showScreen('screen13')"></button>
+
+</div>
+
+<!-- SCREEN 13 -->
+<div class="screen" id="screen13">
+  <img src="https://i.imgur.com/Vcxzsvf.jpeg" class="bg">
+
+<button class="to-screen5-g" onclick="showScreen('screen5')"></button>
+
+<button class="to-screen12" onclick="showScreen('screen11')"></button>
+
+<button class="to-screen14" onclick="showScreen('screen14')"></button>
+
+</div>
+
+<!-- SCREEN 14 -->
+<div class="screen" id="screen14">
+  <img src="https://i.imgur.com/qtZa4R8.jpeg" class="bg">
+
+<button class="to-screen5-h" onclick="showScreen('screen5')"></button>
+
+<button class="to-screen13" onclick="showScreen('screen13')"></button>
+
+<button class="to-screen7" onclick="showScreen('screen7')"></button>
+
+
+</div>
+
+<!-- SCREEN PENA 15 -->
+<div class="screen" id="screen15">
+  <img src="https://i.imgur.com/hxKGfaf.jpeg" class="bg">
+
+  <button class="to-screen3-from15" onclick="showScreen('screen3')"></button>
+
+  <!-- input catatan -->
+  <textarea id="catatanPena"></textarea>
+  <button onclick="simpanPena()"></button>
+
+
+
+</div>
+
+
+ <!-- tombol next screen 16 (Level 2) -->
+<div class="screen" id="screen16">
+  <img src="https://i.imgur.com/PKLcUfI.jpeg" class="bg">
+
+ <button class="back-to-leve5" onclick="showScreen('screen5')"></button>
+
+<button class="btn-ulang" onclick="mainUlangLevel2()"></button>
+
+<button class="pena-level2-btn" onclick="showScreen('screenPena')"></button>
+
+  <button class="pena17-btn" onclick="showScreen('screenPena17')"></button>
+
+<button class="to-screen1-from16" onclick="showScreen('screen1')"></button>
+
+<button class="to-screen3-from16" onclick="showScreen('screen3')"></button>
+
+
+ <button id="btnNext"></button>
+
+
+  
+
+
+
+
+  <img src="https://i.imgur.com/qWLSBOW.png" class="hewan kepompong" draggable="false">
+  
+  <img src="https://i.imgur.com/dhHpPoI.png" class="hewan tunas" draggable="false">
+  
+  <img src="https://i.imgur.com/Z2RC8tI.png" class="hewan air" draggable="false">
+  
+  <img src="https://i.imgur.com/e1o74qE.png" class="hewan bunga" draggable="false">
+ 
+  <img src="https://i.imgur.com/nXzHnnN.png" class="hewan kupu-kupu" draggable="false">
+  
+  <img src="https://i.imgur.com/kCZPgxP.png" class="hewan ulat" draggable="false">
+  
+  <img src="https://i.imgur.com/xA5mMjj.png" class="hewan daun" draggable="false">
+
+<div id="nilaiGameLevel2">0</div>
+
+
+<button id="btnToLevel3From16"></button>
+
+
+
+
+  <img src="https://i.imgur.com/726X3uz.png" class="hewan telurulat" draggable="false">
+
+
+
+
+
+<!-- KERANJANG -->
+  <img src="https://i.imgur.com/WtvU51C.png" class="keranjang kair">
+  
+  <img src="https://i.imgur.com/6pRPUSK.png" class="keranjang kkupu-kupu">
+  
+  <img src="https://i.imgur.com/CK0FjUv.png" class="keranjang kulat">
+  
+  <img src="https://i.imgur.com/AoAmW2e.png" class="keranjang kdaun">
+  
+  <img src="https://i.imgur.com/HeT6jfc.png" class="keranjang ktelurulat">
+
+  <img src="https://i.imgur.com/PeaSh0Z.png" class="keranjang kkepompong">
+  
+  <img src="https://i.imgur.com/9rLR2ea.png" class="keranjang ktunas">
+  
+  <img src="https://i.imgur.com/PW86Ymi.png" class="keranjang kbunga">
+
+</div>
+
+<!-- screen pena 17 -->
+<!-- screen pena 17 -->
+<div class="screen" id="screenPena17">
+  <img src="https://i.imgur.com/G9xWydI.jpeg" class="bg">
+
+<button class="btn-next17" onclick="showScreen('screenPena17')"></button>
+
+<button class="to-screen17-btn" onclick="showScreen('screenPena17')"></button>
+
+
+  <div class="nama17"></div>
+  <div class="nilai17"></div>
+  <div class="nilai217"></div>
+  <div class="pena17"></div>
+<button class="to-screen3-from17" onclick="showScreen('screen3')"></button>
+</div>
+
+
+<!-- SCREEN 18 pilar lv2-->
+
+<!-- SCREEN HASIL -->
+<!-- SCREEN 18 -->
+<div class="screen" id="screen18">
+  <img src="https://i.imgur.com/Mbm1KZR.jpeg" class="bg">
+  <button id="btnTo25From18"></button>
+  <button id="btnNext19"></button>
+  <button id="btnBack16"></button>
+</div>
+
+<!-- SCREEN 19 -->
+<div class="screen" id="screen19">
+  <img src="https://i.imgur.com/3jhMHD5.jpeg" class="bg">
+  <button id="btnBack18"></button>
+  <button id="btnTo16"></button>
+  <button id="btnTo20"></button>
+</div>
+
+<!-- SCREEN 20 -->
+<div class="screen" id="screen20">
+  <img src="https://i.imgur.com/Pzy8C0k.jpeg" class="bg">
+  <button id="btnTo19"></button>
+  <button id="btnTo16"></button>
+  <button id="btnTo21"></button>
+</div>
+
+<!-- SCREEN 21 -->
+<div class="screen" id="screen21">
+  <img src="https://i.imgur.com/ZMLIJUX.jpeg" class="bg">
+  <button id="btnBack20"></button>
+  <button id="btnTo16From21"></button>
+  <button id="btnTo22"></button>
+</div>
+
+<!-- SCREEN 22 -->
+<div class="screen" id="screen22">
+  <img src="https://i.imgur.com/l7QAWu0.jpeg" class="bg">
+  <button id="btnBack21"></button>
+  <button id="btnTo16From22"></button>
+  <button id="btnTo23"></button>
+</div>
+
+<!-- SCREEN 23 -->
+<div class="screen" id="screen23">
+  <img src="https://i.imgur.com/mQUW2MA.jpeg" class="bg">
+  <button id="btnBack22"></button>
+  <button id="btnTo16From23"></button>
+  <button id="btnTo24"></button>
+</div>
+
+<!-- SCREEN 24 -->
+<div class="screen" id="screen24">
+  <img src="https://i.imgur.com/fDnxanE.jpeg" class="bg">
+  <button id="btnBack23"></button>
+  <button id="btnTo16From24"></button>
+  <button id="btnTo25From24"></button>
+</div>
+
+<!-- SCREEN 25 -->
+<div class="screen" id="screen25">
+  <img src="https://i.imgur.com/LCSxXOB.jpeg" class="bg">
+  <button id="btnBack24From25"></button>
+  <button id="btnTo16From25"></button>
+  <button id="btnTo18From25"></button>
+</div>
+
+<!-- LEVEL 3 -->
+<div id="level3">
+
+<!-- SCREEN 26 -->
+<div class="screen" id="screen26">
+  <img src="https://i.imgur.com/SW8QxZr.jpeg" class="bg">
+
+  <button id="btnToLevel2From26" onclick="showScreen('screen16')"></button>
+  <button id="btnResetLevel3" class="btn-reset"></button>
+
+  <div id="scoreLevel3">0</div>
+
+  <!-- NAVIGATION -->
+  <button class="bottom-btn" onclick="showScreen('screen1')"></button>
+  <button class="bottom-btn-1" onclick="showScreen('screen3')"></button>
+  <button class="to-screen27-btn" onclick="showScreen('screen27')"></button>
+  <button class="to-level4-btn" onclick="showScreen('screen31')"></button>
+
+  <!-- BASE -->
+  <img src="https://i.imgur.com/uQKcXPI.png" class="base-a">
+  <img src="https://i.imgur.com/iSiEPrX.png" class="base-b">
+  <img src="https://i.imgur.com/50rJvE1.png" class="base-c">
+  <img src="https://i.imgur.com/UH4GEME.png" class="base-d">
+
+  <!-- KERANJANG -->
+  <img src="https://i.imgur.com/qrymttU.png" class="keranjang1">
+  <img src="https://i.imgur.com/V5oQPEa.png" class="keranjang2">
+  <img src="https://i.imgur.com/ViFPANA.png" class="keranjang3">
+  <img src="https://i.imgur.com/jWsnBd3.png" class="keranjang4">
+
+  <!-- DAUR HIDUP -->
+  <img src="https://i.imgur.com/x2y7AW5.png" class="kupu-d">
+  <img src="https://i.imgur.com/dAFkyox.png" class="kempo-c">
+  <img src="https://i.imgur.com/2W0Hlrf.png" class="ult-b">
+  <img src="https://i.imgur.com/rPKACYJ.png" class="telur-a">
+</div>
+
+<!-- SCREEN 27 -->
+<div class="screen" id="screen27">
+  <img src="https://i.imgur.com/3GXlCcz.jpeg" class="bg">
+  <button class="back-to-26" onclick="showScreen('screen26')"></button>
+  <button class="to-screen28" onclick="showScreen('screen28')"></button>
+  <button class="screen27-to30" onclick="showScreen('screen30')"></button>
+</div>
+
+<!-- SCREEN 28 -->
+<div class="screen" id="screen28">
+  <img src="https://i.imgur.com/HkWhILL.jpeg" class="bg">
+  <button class="back-to-27" onclick="showScreen('screen27')"></button>
+  <button class="to-screen29" onclick="showScreen('screen29')"></button>
+</div>
+
+<!-- SCREEN 29 -->
+<div class="screen" id="screen29">
+  <img src="https://i.imgur.com/tI3K85Y.jpeg" class="bg">
+  <button class="back-to-28" onclick="showScreen('screen28')"></button>
+  <button class="to-screen26-from28" onclick="showScreen('screen26')"></button>
+  <button class="to-screen30" onclick="showScreen('screen30')"></button>
+</div>
+
+<!-- SCREEN 30 -->
+<div class="screen" id="screen30">
+  <img src="https://i.imgur.com/JFXhlT9.jpeg" class="bg">
+  <button class="screen30-back" onclick="showScreen('screen29')"></button>
+  <button class="screen30-home" onclick="showScreen('screen26')"></button>
+  <button class="screen30-to27" onclick="showScreen('screen27')"></button>
+</div>
+
+</div>
+
+
+  <!-- level 4 -->
+
+<div class="screen" id="screen31">
+  <img src="https://i.imgur.com/iyiSDt4.jpeg" class="bg">
+
+  <!-- HOME -->
+  <button class="home-from31" onclick="showScreen('screen1')"></button>
+
+<button class="btn-back-26-from31" onclick="showScreen('screen26')"></button>
+
+<button class="btn-ulang-level4"></button>
+
+<button class="btn-home-level4"></button>
+ 
+<button class="btn-back-level4"></button>
+
+<button class="bottom-btn" onclick="showScreen('screen32')"></button>
+
+<button class="to-level5-btn">
+
+</button>
+
+
+<div id="nilaiGameLevel4">0</div>
+
+ <img src="https://i.imgur.com/Bd1S4ui.png" class="keranjang keranjang-ketang" draggable="false">
+  <img src="https://i.imgur.com/Y7yPiDO.png" class="keranjang keranjang-cabai" draggable="false">
+  <img src="https://i.imgur.com/V3XSPwL.png" class="keranjang keranjang-semangka" draggable="false">
+  <img src="https://i.imgur.com/DvBAgh0.png" class="keranjang keranjang-bawang-merah" draggable="false">
+  <img src="https://i.imgur.com/l1vl7Vj.png" class="keranjang keranjang-bawang-putih" draggable="false">
+  <img src="https://i.imgur.com/vunqi5V.png" class="keranjang keranjang-wortel" draggable="false">
+  <img src="https://i.imgur.com/urVaDDk.png" class="keranjang keranjang-cabai-hijau" draggable="false">
+  <img src="https://i.imgur.com/7tUsdia.png" class="keranjang keranjang-jahe" draggable="false">
+
+
+
+<img src="https://i.imgur.com/gpkpmUi.png" class="bawang-putih" draggable="false">
+  <img src="https://i.imgur.com/BzGHKyP.png" class="cabai-hijau" draggable="false">
+  <img src="https://i.imgur.com/Rtdvnqc.png" class="bawang-merah" draggable="false">
+  <img src="https://i.imgur.com/WM2pmI3.png" class="wortel" draggable="false">
+  <img src="https://i.imgur.com/cpnx9vm.png" class="kentang" draggable="false">
+  <img src="https://i.imgur.com/4YsvRUf.png" class="jahe" draggable="false">
+  <img src="https://i.imgur.com/NPvWtT8.png" class="cabai-merah" draggable="false">
+  <img src="https://i.imgur.com/fiMaJMM.png" class="semangka" draggable="false">
+
+
+<img src="https://i.imgur.com/gpkpmUi.png" class="hewan bawang-putih" draggable="false">
+<img src="https://i.imgur.com/BzGHKyP.png" class="hewan cabai-hijau" draggable="false">
+<img src="https://i.imgur.com/Rtdvnqc.png" class="hewan bawang-merah" draggable="false">
+<img src="https://i.imgur.com/WM2pmI3.png" class="hewan wortel" draggable="false">
+<img src="https://i.imgur.com/cpnx9vm.png" class="hewan kentang" draggable="false">
+<img src="https://i.imgur.com/4YsvRUf.png" class="hewan jahe" draggable="false">
+<img src="https://i.imgur.com/NPvWtT8.png" class="hewan cabai-merah" draggable="false">
+<img src="https://i.imgur.com/fiMaJMM.png" class="hewan semangka" draggable="false">
+</div>
+
+
+
+<div class="screen" id="screen32">
+  <img src="https://i.imgur.com/H5JN6DX.jpeg" class="bg">
+
+<button class="bottom-btn-32" onclick="showScreen('screen33')"></button>
+
+<button class="bottom-btn-32-back" onclick="showScreen('screen31')"></button>
+
+<button class="bottom-btn-31-next" onclick="showScreen('screen39')"></button>
+</div>
+
+
+<div class="screen" id="screen33">
+  <img src="https://i.imgur.com/hpVixde.jpeg" class="bg">
+
+
+  <button class="bottom-btn-33" onclick="showScreen('screen32')"></button>
+<button class="bottom-btn-33-back" onclick="showScreen('screen31')"></button>
+
+<button class="bottom-btn-33-next" onclick="showScreen('screen34')"></button>
+
+</div>
+<div class="screen" id="screen34">
+  <img src="https://i.imgur.com/yqQs8kh.jpeg" class="bg">
+
+<button class="bottom-btn-34-back" onclick="showScreen('screen33')"></button>
+<button class="bottom-btn-34-next" onclick="showScreen('screen35')"></button>
+
+<button class="bottom-btn-34-backlevel" onclick="showScreen('screen31')"></button>
+
+</div>
+
+<div class="screen" id="screen35">
+  <img src="https://i.imgur.com/e3UTKpC.jpeg" class="bg">
+
+  <button class="bottom-btn-35-back" onclick="showScreen('screen34')"></button>
+<button class="bottom-btn-35-home" onclick="showScreen('screen31')"></button>
+<button class="bottom-btn-35-next" onclick="showScreen('screen36')"></button>
+</div>
+
+<div class="screen" id="screen36">
+  <img src="https://i.imgur.com/UBE9v7S.jpeg" class="bg">
+
+  <button class="bottom-btn-36-back" onclick="showScreen('screen35')"></button>
+
+  <button class="bottom-btn-36-home" onclick="showScreen('screen31')"></button>
+  <button class="bottom-btn-36-next" onclick="showScreen('screen37')"></button>
+</div>
+
+<div class="screen" id="screen37">
+  <img src="https://i.imgur.com/xJpAqz1.jpeg" class="bg">
+  <button class="bottom-btn-37-back" onclick="showScreen('screen36')"></button>
+<button class="bottom-btn-37-home" onclick="showScreen('screen31')"></button>
+<button class="bottom-btn-37-next" onclick="showScreen('screen38')"></button>
+</div>
+
+<div class="screen" id="screen38">
+  <img src="https://i.imgur.com/HbfCRco.jpeg" class="bg">
+  <button class="bottom-btn-38-back" onclick="showScreen('screen37')"></button>
+  <button class="bottom-btn-38-home" onclick="showScreen('screen31')"></button>
+  <button class="bottom-btn-38-next" onclick="showScreen('screen39')"></button>
+</div>
+
+<div class="screen" id="screen39">
+  <img src="https://i.imgur.com/aSuI8Ch.jpeg" class="bg">
+  <button class="bottom-btn-39-back" onclick="showScreen('screen38')"></button>
+  <button class="bottom-btn-39-home" onclick="showScreen('screen31')"></button>
+  <button class="bottom-btn-39-next" onclick="showScreen('screen32')"></button>
+</div>
+
+<div class="screen" id="screen40">
+  <img src="https://i.imgur.com/YB4Tzpq.jpeg" class="bg">
+
+<button class="btn-back-to-31" onclick="showScreen('screen31')">
+</button>
+
+ <button class="back-to-level3-btn" onclick="showScreen('screen3')">
+  </button>
+
+  <button class="btn-reset-level5">
+</button>
+
+<button class="btn-to-41" onclick="showScreen('screen41')">
+
+</button>
+
+<button class="bottom-btn-40-to45"></button>
+
+<!-- ITEM DRAG (BATANG PISANG) -->
+<img 
+  src="https://i.imgur.com/WCE6Yac.png" 
+  class="hewan batang-pisang" 
+  id="pisangDrag"
+/>
+
+<!-- AREA DROP -->
+<img 
+  src="https://i.imgur.com/VjgwxE9.png" 
+  class="keranjang keranjang-pisang" 
+  id="pisangDrop"
+/>
+
+<!-- ITEM DRAG 2 (BATANG PISANG VARIASI) -->
+<img 
+  src="https://i.imgur.com/y6zzuOS.png" 
+  class="hewan batang-pisang-2" 
+/>
+
+<!-- AREA DROP 2 -->
+<img 
+  src="https://i.imgur.com/zsRhaPD.png" 
+  class="keranjang keranjang-pisang-2" 
+/>
+
+
+<!-- ITEM DRAG 3 (TUNAS PISANG) -->
+<img 
+  src="https://i.imgur.com/tETKBuW.png" 
+  class="hewan tunas-pisang" 
+/>
+
+<!-- AREA DROP 3 -->
+<img 
+  src="https://i.imgur.com/Yvetnnl.png" 
+  class="keranjang keranjang-tunas" 
+/>
+
+
+<!-- ITEM DRAG 4 (DAUN PISANG) -->
+<img 
+  src="https://i.imgur.com/bhuoUMz.png" 
+  class="hewan daun-pisang" 
+/>
+
+<!-- AREA DROP 4 (PAKAI DROP YANG SAMA) -->
+<img 
+  src="https://i.imgur.com/Yvetnnl.png" 
+  class="keranjang keranjang-daun" 
+/>
+
+<!-- NILAI -->
+<div id="nilaiGameLevel5" class="score">0</div>
+ <button class="back-to-home-btn" onclick="showScreen('screen1')">
+  </button>
+
+</div>
+
+<div class="screen" id="screen41">
+  <img src="https://i.imgur.com/UuQQLG2.jpeg" class="bg">
+  <button class="btn-to-42" onclick="showScreen('screen42')"></button>
+  <button class="btn-to-40" onclick="showScreen('screen40')"></button>
+  <button class="btn-to-44-from41" onclick="showScreen('screen44')"></button>
+</div>
+
+
+<div class="screen" id="screen42">
+  <img src="https://i.imgur.com/QoZONUG.jpeg" class="bg">
+<button class="btn-back-41" onclick="showScreen('screen41')"></button>
+  <button class="btn-to-43" onclick="showScreen('screen43')"></button>
+
+  <button class="btn-to-40-from42" onclick="showScreen('screen40')"></button>
+</div>
+
+
+
+<div class="screen" id="screen43">
+  <img src="https://i.imgur.com/1eS5hS7.jpeg" class="bg">
+
+  <button class="btn-to-42-back" onclick="showScreen('screen42')"></button>
+    <button class="btn-to-40-from43" onclick="showScreen('screen40')"></button>  <button class="btn-to-40-from43" onclick="showScreen('screen40')"></button>
+  <button class="btn-to-44" onclick="showScreen('screen44')"></button>
+
+</div>
+
+<div class="screen" id="screen44">
+  <img src="https://i.imgur.com/wcEOA9H.jpeg" class="bg">
+  <button class="btn-to-43-from44" onclick="showScreen('screen43')"></button>
+   <button class="btn-to-40-from44" onclick="showScreen('screen40')"></button>
+   <button class="btn-to-41-from44" onclick="showScreen('screen41')"></button>
+</div>
+
+
+
+<div class="screen" id="screen45">
+  <img src="https://i.imgur.com/7ffWF4y.jpeg" class="bg">
+
+<button class="btn-home" onclick="showScreen('screen1')"></button>
+
+<div id="nilaiGameLevel6">0</div>
+
+<button class="btn-reset-level6"></button>
+
+<button class="bottom-btn-45-to40"></button>
+
+<button class="bottom-btn-45-home"></button>
+
+<button class="bottom-btn-45-to3"></button>
+
+<button class="bottom-btn-45-to46"></button>
+
+<button class="to-screen50" onclick="showScreen('screen50')"></button>
+
+<!-- BATANG KENTANG (DRAG) -->
+<img src="https://i.imgur.com/Wdp1t0x.png"
+     class="hewan batang-kentang"
+     draggable="false">
+
+<!-- AREA DROP -->
+<img src="https://i.imgur.com/54QfUt8.png"
+     class="keranjang keranjang-kentang">
+
+
+
+<!-- BUAH KENTANG (DRAG) -->
+<img src="https://i.imgur.com/gdvV5qy.png"
+     class="hewan buah-kentang"
+     draggable="false">
+
+<!-- AREA DROP BUAH KENTANG -->
+<img src="https://i.imgur.com/t9FgGMU.png"
+     class="keranjang keranjang-buah-kentang">
+
+<!-- AKAR KENTANG (DRAG) -->
+<img src="https://i.imgur.com/5UpIndg.png"
+     class="hewan akar-kentang"
+     draggable="false">
+
+<!-- AREA DROP AKAR -->
+<img src="https://i.imgur.com/jmHmyO4.png"
+     class="keranjang keranjang-akar-kentang">
+
+<!-- DAUN KENTANG (DRAG) -->
+<img src="https://i.imgur.com/OtD6e9F.png"
+     class="hewan daun-kentang"
+     draggable="false">
+
+<!-- AREA DROP DAUN -->
+<img src="https://i.imgur.com/Cn7RDr5.png"
+     class="keranjang keranjang-daun-kentang">
+
+
+
+
+</div>
+
+<div class="screen" id="screen46">
+  <img src="https://i.imgur.com/uZXUPlP.jpeg" class="bg">
+
+<button class="bottom-btn-46-to45"></button>
+<button class="btn-to-47" onclick="showScreen('screen47')"></button>
+<button class="btn-to-49" onclick="showScreen('screen49')"></button>
+
+
+</div>
+
+
+<div class="screen" id="screen47">
+  <img src="https://i.imgur.com/y5cYh1T.jpeg" class="bg">
+
+<button class="btn-to-48" onclick="showScreen('screen48')"></button>
+<button class="btn-back-45" onclick="showScreen('screen45')"></button>
+<button class="btn-back-46" onclick="showScreen('screen46')"></button>
+</div>
+
+
+
+<div class="screen" id="screen48">
+  <img src="https://i.imgur.com/0nfjXWW.jpeg" class="bg">
+
+<button class="btn-to-49" onclick="showScreen('screen49')"></button>
+<button class="btn-back-45" onclick="showScreen('screen45')"></button>
+<button class="btn-back-47" onclick="showScreen('screen47')"></button>
+</div>
+
+
+<div class="screen" id="screen49">
+  <img src="https://i.imgur.com/x681pcs.jpeg" class="bg">
+<button class="btn-back-45" onclick="showScreen('screen45')"></button>
+<button class="btn-back-48" onclick="showScreen('screen48')"></button>
+<button class="btn-to-46" onclick="showScreen('screen46')"></button>
+</div>
+
+<div class="screen" id="screen50">
+  <img src="https://i.imgur.com/tXnTtr2.jpeg" class="bg">
+  <button class="btn-back-45" onclick="showScreen('screen45')"></button>
+  <button class="to-screen45" onclick="showScreen('screen45')"></button>
+  <button class="to-screen1" onclick="showScreen('screen1')"></button>
+  <button class="to-screen3" onclick="showScreen('screen3')"></button>
+
+  <button class="to-screen51" onclick="showScreen('screen51')"></button>
+<button class="to-screen52" onclick="showScreen('screen52')"></button>
+
+<div id="scoreLevel7">0</div>
+<!-- DRAG ITEMS -->
+<img src="https://i.imgur.com/fHITFeH.png" class="hewan batang-wortel">
+<img src="https://i.imgur.com/qRMxQBW.png" class="hewan buah-wortel">
+<img src="https://i.imgur.com/P0scBgQ.png" class="hewan akar-wortel">
+<img src="https://i.imgur.com/92VDft0.png" class="hewan daun-wortel">
+
+<!-- DROP AREA -->
+<img src="https://i.imgur.com/6rA805E.png" class="keranjang keranjang-batang">
+<img src="https://i.imgur.com/wcaUoWV.png" class="keranjang keranjang-buah">
+<img src="https://i.imgur.com/NkT18fs.png" class="keranjang keranjang-akar">
+<img src="https://i.imgur.com/ROcYbIq.png" class="keranjang keranjang-daun">
+
+<!-- RESET BUTTON -->
+<button class="btn-reset-level7"></button>
+
+<button class="btn-level8" onclick="showScreen('screen55')"></button>
+
+</div>
+
+<div class="screen" id="screen51">
+  <img src="https://i.imgur.com/Tje1JT7.jpeg" class="bg">
+  <button class="to-screen50" onclick="showScreen('screen50')"></button>
+<button class="to-screen52" onclick="showScreen('screen52')"></button>
+<button class="to-screen54" onclick="showScreen('screen54')"></button>
+</div>
+
+<div class="screen" id="screen52">
+  <img src="https://i.imgur.com/n31FWgA.jpeg" class="bg">
+  <button class="to-screen51" onclick="showScreen('screen51')"></button>
+<button class="to-screen50" onclick="showScreen('screen50')"></button>
+<button class="to-screen53" onclick="showScreen('screen53')"></button>
+</div>
+<div class="screen" id="screen53">
+  <img src="https://i.imgur.com/rvCo3bc.jpeg" class="bg">
+<button class="to-screen50" onclick="showScreen('screen50')"></button>
+<button class="to-screen54" onclick="showScreen('screen54')"></button>
+<button class="to-screen52" onclick="showScreen('screen52')"></button>
+</div>
+<div class="screen" id="screen54">
+  <img src="https://i.imgur.com/G65jg2R.jpeg" class="bg">
+<button class="to-screen53" onclick="showScreen('screen53')"></button>
+<button class="to-screen50" onclick="showScreen('screen50')"></button>
+<button class="to-screen51" onclick="showScreen('screen51')"></button>
+</div>
+
+
+<div class="screen" id="screen55">
+  <img src="https://i.imgur.com/XOAs5OR.jpeg" class="bg">
+
+<button class="bottom-to-level7" onclick="showScreen('screen50')">
+
+</button>
+
+<button class="bottom-to-screen3" onclick="showScreen('screen3')">
+  
+</button>
+<button class="bottom-to-screen1" onclick="showScreen('screen1')">
+</button>
+
+<button class="bottom-to-screen56" onclick="showScreen('screen56')">
+</button>
+
+<button class="bottom-to-screen61"
+  onclick="showScreen('screen61')">
+</button>
+
+<!-- DRAG -->
+<img src="https://i.imgur.com/zCCTxgl.png" class="hewan batang-semangka">
+
+<img src="https://i.imgur.com/NqkpRxI.png" class="hewan buah-semangka">
+
+<img src="https://i.imgur.com/fa8guLk.png" class="hewan bunga-semangka">
+
+<img src="https://i.imgur.com/VfJLZuP.png" class="hewan akar-semangka">
+
+<img src="https://i.imgur.com/e68l7VI.png" class="hewan daun-semangka">
+
+<!-- DROP -->
+<img src="https://i.imgur.com/50MO5OQ.png" class="keranjang keranjang-batang-semangka">
+
+<img src="https://i.imgur.com/wcaUoWV.png" class="keranjang keranjang-buah-semangka">
+
+<img src="https://i.imgur.com/9RTEDBq.png" class="keranjang keranjang-bunga-semangka">
+
+<img src="https://i.imgur.com/bWr1Gay.png" class="keranjang keranjang-akar-semangka">
+
+<img src="https://i.imgur.com/bHghTze.png" class="keranjang keranjang-daun-semangka">
+
+<button class="btn-reset-level8">
+ 
+</button>
+
+<div id="nilaiGameLevel8">0</div>
+
+
+</button>
+
+</div>
+
+<div class="screen" id="screen56">
+  <img src="https://i.imgur.com/z9EJcji.jpeg" class="bg">
+<button class="bottom-to-screen55" onclick="showScreen('screen55')">
+</button>
+
+<button class="bottom-to-screen57" onclick="showScreen('screen57')"></button>
+
+
+
+</div>
+
+<div class="screen" id="screen57">
+  <img src="https://i.imgur.com/2S98iYa.jpeg" class="bg">
+
+<button class="bottom-to-screen55-from57" onclick="showScreen('screen55')">
+ 
+</button>
+<button class="bottom-to-screen58" onclick="showScreen('screen58')">
+</button>
+
+<button class="btn-screen56" onclick="showScreen('screen56')"></button>
+
+
+</div>
+
+
+<div class="screen" id="screen58">
+  <img src="https://i.imgur.com/soPrYpn.jpeg" class="bg">
+<button class="bottom-to-screen59" onclick="showScreen('screen59')">
+<button class="bottom-to-screen55-from58" onclick="showScreen('screen55')">
+</button>
+<button class="btn-screen57" onclick="showScreen('screen57')"></button>
+</div>
+
+<div class="screen" id="screen59">
+  <img src="https://i.imgur.com/meutU0F.jpeg" class="bg">
+<button class="bottom-to-screen60" onclick="showScreen('screen60')">
+</button>
+<button class="bottom-to-screen55-from59" onclick="showScreen('screen55')">
+  <button class="btn-screen58" onclick="showScreen('screen58')"></button>
+</button>
+
+</div>
+
+<div class="screen" id="screen60">
+  <img src="https://i.imgur.com/cDlweyq.jpeg" class="bg">
+<button class="bottom-to-screen55-from60" onclick="showScreen('screen55')">
+</button>
+<button class="bottom-to-screen51-from60" onclick="showScreen('screen51')">
+</button>
+<button class="btn-screen56" onclick="showScreen('screen56')"></button>
+<button class="btn-screen59" onclick="showScreen('screen59')"></button>
+</div>
+
+
+<!-- SCREEN 61 / LEVEL 9 -->
+<div class="screen" id="screen61">
+
+  <img src="https://i.imgur.com/QwRGrcH.jpeg"
+       class="bg">
+<button class="bottom-to-screen55"
+  onclick="showScreen('screen55')">
+</button>
+<button class="bottom-to-screen3"
+  onclick="showScreen('screen3')">
+</button>
+
+<button class="bottom-to-screen1"
+  onclick="showScreen('screen1')">
+</button>
+<button class="bottom-to-screen62"
+  onclick="showScreen('screen62')">
+</button>
+
+ <!-- DRAG ITEMS -->
+  <img src="https://i.imgur.com/kQr7osE.png" class="hewan buah-tomat">
+  <img src="https://i.imgur.com/jb6LWWU.png" class="hewan batang-tomat">
+  <img src="https://i.imgur.com/Rhny3FH.png" class="hewan akar-tomat">
+  <img src="https://i.imgur.com/lhKSRGw.png" class="hewan daun-tomat">
+
+  <!-- DROP AREA -->
+  <img src="https://i.imgur.com/zceIgjU.png" class="keranjang keranjang-buah">
+  <img src="https://i.imgur.com/M6TOQId.png" class="keranjang keranjang-batang">
+  <img src="https://i.imgur.com/gY13nHV.png" class="keranjang keranjang-akar">
+  <img src="https://i.imgur.com/byMmRrB.png" class="keranjang keranjang-daun">
+  <!-- SCORE -->
+  <div id="nilaiGameLevel9">0</div>
+  <button class="btn-reset-level9"></button>
+  <button class="bottom-to-screen66-from61"
+  onclick="showScreen('screen66')">
+</button>
+</div>
+
+<!-- SCREEN 62 -->
+<div class="screen" id="screen62">
+
+  <img src="https://i.imgur.com/BOD5OYV.jpeg"
+       class="bg">
+
+       <button class="bottom-to-screen63"
+  onclick="showScreen('screen63')">
+</button>
+<button class="bottom-to-screen61-from62"
+  onclick="showScreen('screen61')">
+</button>
+<button class="bottom-to-screen65-from62"
+  onclick="showScreen('screen65')">
+</button>
+</div>
+
+<!-- SCREEN 63 -->
+<div class="screen" id="screen63">
+
+  <img src="https://i.imgur.com/0ltMVVB.jpeg"
+       class="bg">
+       <button class="bottom-to-screen64"
+  onclick="showScreen('screen64')">
+</button>
+<button class="bottom-to-screen61-from63"
+  onclick="showScreen('screen61')">
+</button>
+<button class="bottom-to-screen62-from63"
+  onclick="showScreen('screen62')">
+</button>
+</div>
+
+
+<!-- SCREEN 64 -->
+<div class="screen" id="screen64">
+
+  <img src="https://i.imgur.com/JqRc0Pm.jpeg"
+       class="bg">
+<button class="bottom-to-screen65"
+  onclick="showScreen('screen65')">
+</button>
+<button class="bottom-to-screen61-from64"
+  onclick="showScreen('screen61')">
+</button>
+<button class="bottom-to-screen63-from64"
+  onclick="showScreen('screen63')">
+</button>
+</div>
+
+<!-- SCREEN 65 -->
+<div class="screen" id="screen65">
+
+  <img src="https://i.imgur.com/Sbwu7VU.jpeg"
+       class="bg">
+<button class="bottom-to-screen61-from65"
+  onclick="showScreen('screen61')">
+</button>
+<button class="bottom-to-screen62-from65"
+  onclick="showScreen('screen62')">
+</button>
+<button class="bottom-to-screen64-from65"
+  onclick="showScreen('screen64')">
+</button>
+</div>
+
+<!-- SCREEN 66 (LEVEL 10 A) -->
+<div class="screen" id="screen66">
+
+  <img src="https://i.imgur.com/tyo0Kz2.jpeg" class="bg">
+  <button class="bottom-to-screen61-from66"
+  onclick="showScreen('screen61')">
+</button>
+<button class="bottom-to-screen1-from66"
+  onclick="showScreen('screen1')">
+</button>
+
+<button class="bottom-to-screen3-from66"
+  onclick="showScreen('screen3')">
+</button>
+
+  <!-- OBJEK PROTULING -->
+  <img src="https://i.imgur.com/lRSHrjy.png" class="obj-protuling">
+
+    <!-- SABUN (DRAG ITEM) -->
+  <img src="https://i.imgur.com/gpziF70.png" class="hewan sabun" id="sabun">
+
+  <!-- KUMAN (OVERLAY DI TUBUH PROTULING) -->
+  <img src="https://i.imgur.com/B9FIRk9.png" class="kuman k1">
+  <img src="https://i.imgur.com/RzFJCJ1.png" class="kuman k2">
+  <img src="https://i.imgur.com/QsnmH77.png" class="kuman k3">
+  <img src="https://i.imgur.com/yZaLj7q.png" class="kuman k4">
+  <img src="https://i.imgur.com/dMoE8gm.png" class="kuman k5">
+  <img src="https://i.imgur.com/NnqFk8x.png" class="kuman k6">
+  <img src="https://i.imgur.com/DIZXqMO.png" class="kuman k7">
+  <img src="https://i.imgur.com/0uVGMOv.png" class="kuman k8">
+  <img src="https://i.imgur.com/pAWF4Xt.png" class="kuman k9">
+  <img src="https://i.imgur.com/6uc0CNV.png" class="kuman k10">
+  <img src="https://i.imgur.com/JZKDBV6.png" class="kuman k11">
+
+    <!-- SCORE -->
+  <div id="scoreLevel66">0</div>
+
+
+  <!-- BUTTON RESET POSISI SABUN (KEMBALI KE AWAL) -->
+<button class="btn-reset-sabun-66" onclick="resetSabun66()"></button>
+<button class="bottom-to-screen67-from66"
+  onclick="showScreen('screen67')">
+</button>
+<button class="bottom-to-screen68-from66"
+  onclick="showScreen('screen68')">
+</button>
+
+</div>
+
+<!-- SCREEN 68 -->
+<div class="screen" id="screen68">
+
+  <img src="https://i.imgur.com/FtPBA7h.jpeg" class="bg">
+
+  <button class="bottom-to-screen66-from68"
+  onclick="showScreen('screen66')">
+</button>
+
+</div>
+
+<!-- SCREEN 67 (LEVEL 10B) -->
+<div class="screen" id="screen67">
+  <img src="https://i.imgur.com/5O7YJD2.jpeg" class="bg">
+<button class="bottom-to-screen66-from67"
+  onclick="showScreen('screen66')">
+</button>
+<button class="bottom-to-screen1-from67"
+  onclick="showScreen('screen1')">
+</button>
+
+<button class="bottom-to-screen3-from67"
+  onclick="showScreen('screen3')">
+</button>
+
+
+<!-- SCREEN 67 (LEVEL DRAG) -->
+
+  <!-- DRAG ITEM -->
+  <img src="https://i.imgur.com/C8RptHT.png" class="hewan nama1">
+  <img src="https://i.imgur.com/tpBwrEW.png" class="hewan nama2">
+  <img src="https://i.imgur.com/r9N7JTL.png" class="hewan nama3">
+
+  <!-- DROP AREA -->
+  <div class="keranjang k-nama1"></div>
+  <div class="keranjang k-nama2"></div>
+  <div class="keranjang k-nama3"></div>
+<button class="bottom-reset-screen67" onclick="resetScreen67()"></button>
+<!-- SCORE SCREEN 67 -->
+<div id="nilaiGameLevel67">0</div>
+   <!-- tombol ke screen68 -->
+  <button class="to-screen69" onclick="showScreen('screen69')"></button>
+  
+</div>
+
+
+<!-- SCREEN 69 -->
+<div class="screen" id="screen69">
+  <img src="https://i.imgur.com/gGVYiQk.jpeg" class="bg">
+<button class="to-screen67-from69" onclick="showScreen('screen67')"></button>
+<button class="to-screen70-from69" onclick="showScreen('screen70')"></button>
+ <button class="to-screen71-from69" onclick="showScreen('screen71')"></button>
+</div>
+
+
+<div class="screen" id="screen70">
+  <img src="https://i.imgur.com/PbAg2Bi.jpeg" class="bg">
+  <button class="to-screen67-from70" onclick="showScreen('screen67')"></button>
+    <button class="to-screen69-from70" onclick="showScreen('screen69')"></button>
+    <button class="to-screen71-from70" onclick="showScreen('screen71')"></button>
+</div>
+
+
+<!-- SCREEN 71 -->
+<div class="screen" id="screen71">
+  <img src="https://i.imgur.com/VgpVX74.jpeg" class="bg">
+  <button class="to-screen70-from71" onclick="showScreen('screen70')"></button>
+  <button class="to-screen67-from71" onclick="showScreen('screen67')"></button>
+  <button class="to-screen69-from71" onclick="showScreen('screen69')"></button>
+</div>
+
+<!-- SCREEN 72 DEKSTOP PROTULING -->
+<div class="screen" id="screen72">
+  <img src="https://i.imgur.com/tuwKmII.jpeg" class="bg">
+
+<button class="to-screen1-from72" onclick="showScreen('screen1')"></button>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
