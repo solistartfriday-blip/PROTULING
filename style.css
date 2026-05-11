@@ -178,22 +178,15 @@ button:active {
 
 #tampilNama {
   position: absolute;
-  left: 50%;
-  top: 30%;
-  transform: translate(-50%, -50%);
 
-  width: 60%;
-  max-width: 500px;
+  top: 26%;
+  left: 43%;
 
-  text-align: center;
-  line-height: 1.4;
-
-  font-size: 20px;
+  font-size: 2vw;
   font-weight: bold;
-  color: #346D0A;
+  color: green;
 
-  word-wrap: break-word;
- 
+  z-index: 10;
 }
 
 .home-btn {
@@ -387,37 +380,29 @@ button:active {
   z-index: 5;
 }
 
-#btnUlang {
-  position: absolute;
-  left: 86%;
-  top: 35%;
-  transform: translate(-50%, -50%);
 
-  padding: 23px 7%;
- 
 
-  display: none;
-  z-index: 999999; /* 🔥 WAJIB TINGGI */
-}
+
+
 
 #tampilNilai {
   position: absolute;
 
-  top: 33%;     /* ubah ini untuk naik/turun */
-  right: 46%;   /* ubah ini untuk kiri/kanan */
+  top: 29%;
+  left: 45%;
 
-  font-size: 20px;
-  color: rgb(30, 117, 37);
+  font-size: 2vw;
   font-weight: bold;
+  color: green;
 
-  z-index: 9999;
+  z-index: 10;
 }
 
 #nilaiGame {
   position: absolute;
 
   top: 20%;     /* ubah ini untuk naik/turun */
-  right: 85%;   /* ubah ini untuk kiri/kanan */
+  right: 85.1%;   /* ubah ini untuk kiri/kanan */
 
   font-size: 20px;
   color: rgb(30, 117, 37);
@@ -425,5 +410,6673 @@ button:active {
 
   z-index: 9999;
 }
+
+.to-screen7-a {
+  position: absolute;
+  width: 5%;
+  height: 12%;
+  left: 24.6%;
+  top: 17%;
+
+  border: 
+  background-color:
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+#screen7 .to-screen14 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  left: 13%;
+  top: 53%;
+
+  border: 
+  background-color: 
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+
+.to-screen5-b {
+  position: absolute;
+  width: 19%;
+  height: 12%;
+  left: 81.3%;
+  top: 36%;
+
+  border: 
+  background-color: 
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+.to-screen5-c {
+  position: absolute;
+  width: 19%;
+  height: 12%;
+  left: 81.3%;
+  top: 36%;
+
+  border: 
+  background-color:  
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+/* tombol di screen7 */
+#screen7 .to-screen8 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  left: 87%;
+  top: 53%;
+
+  border: 
+  background-color: 
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+/* tombol di screen8 */
+#screen8 .to-screen7 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  left: 13%;
+  top: 53%;
+
+  border: 
+  background-color: 
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+#screen8 .to-screen9 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  left: 87%;
+  top: 53%;
+
+  border: 
+  background-color: 
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+.to-screen5-d {
+  position: absolute;
+  width: 19%;
+  height: 12%;
+  left: 81.3%;
+  top: 36%;
+
+  border: 
+  background-color:  
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+.to-screen8 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  left: 13%;
+  top: 52.1%;
+
+  border: 
+  background-color: 
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+
+#screen7 .to-screen8 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  left: 87%;
+  top: 53%;
+
+  border: 
+  background-color: 
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+
+#screen9 .to-screen10 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  left: 87%;
+  top: 53%;
+
+  border: 
+  background-color: 
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+
+/* tombol di screen8 */
+#screen10 .to-screen9 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  left: 13%;
+  top: 53%;
+
+  border: 
+  background-color: 
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+
+/* tombol di screen7 */
+#screen10 .to-screen11 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  left: 87%;
+  top: 53%;
+
+  border: 
+  background-color: 
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+/* tombol di screen8 */
+#screen11 .to-screen10 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  left: 13%;
+  top: 53%;
+
+  border: 
+  background-color: 
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+.to-screen5-e {
+  position: absolute;
+  width: 19%;
+  height: 12%;
+  left: 81.3%;
+  top: 36%;
+
+  border: 
+  background-color:  
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+/* tombol di screen7 */
+#screen10 .to-screen11 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  left: 87%;
+  top: 53%;
+
+  border: 
+  background-color: 
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+/* tombol di screen 11-12 */
+#screen11 .to-screen12 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  left: 87%;
+  top: 53%;
+
+  border: 
+  background-color: 
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+/* tombol di screen 12-11 */
+#screen12 .to-screen11 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  left: 13%;
+  top: 53%;
+
+  border: 
+  background-color: 
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+/* tombol di screen 12-13 */
+#screen12 .to-screen13 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  left: 87%;
+  top: 53%;
+
+  border: 
+  background-color: 
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+
+.to-screen5-g {
+  position: absolute;
+  width: 19%;
+  height: 12%;
+  left: 81.3%;
+  top: 36%;
+
+  border: 
+  background-color:  
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+
+/* tombol di screen 13-12 */
+#screen13 .to-screen12 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  left: 13%;
+  top: 53%;
+
+  border: 
+  background-color: 
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+.to-screen5-h {
+  position: absolute;
+  width: 19%;
+  height: 12%;
+  left: 81.3%;
+  top: 36%;
+
+  border: 
+  background-color:  
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+#screen13 .to-screen14 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  left: 87%;
+  top: 53%;
+
+  border: 
+  background-color: 
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+/* tombol di screen 14-13 */
+#screen14 .to-screen13 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  left: 13%;
+  top: 53%;
+
+  border: 
+  background-color: 
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+#screen14 .to-screen7 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  left: 87%;
+  top: 53%;
+
+  border: 
+  background-color: 
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+/* tombol pena di screen5 */
+#screen5 .btn-pena {
+  position: absolute;
+  width: 6%;
+  height: 12%;
+  left: 33.1%;
+  top: 17.6%;
+
+  border: 
+  background-color: 
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+
+/* tombol balik di screen15 */
+#screen15 .to-screen5-pena {
+  position: absolute;
+  width: 18%;
+  height: 8%;
+  left: 26%;
+  top: 88%;
+
+  border: 
+  background-color: 
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+#catatanPena {
+  position: absolute;
+  width: 70%;
+  height: 30%;
+  left: 50%;
+  top: 35%;
+
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+
+  background: transparent;
+  border: none;
+  outline: none;
+
+  text-align: center; /* 🔥 ini wajib */
+  padding-top: 10%;   /* 🔥 bantu tengah vertical */
+
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #346D0A;
+}
+
+#tampilPena 
+{
+  position: absolute;
+
+  top: 65%;
+  left: 49%;
+
+  transform: translate(-50%, -50%);
+
+  width: 70%;
+  height: 30%;
+
+  background: transparent;
+
+  border: none;
+  outline: none;
+
+  color: green;
+
+  font-size: 1.5vw;
+  font-weight: bold;
+
+  z-index: 10;
+
+  /* tampilan paragraf */
+  text-align: center;
+
+  line-height: 1.8;
+
+  text-indent: 3%;
+
+  white-space: pre-wrap;
+  word-break: break-word;
+
+  /* 🔥 scroll aktif */
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  /* padding stabil */
+  padding: 9.5%;
+
+  box-sizing: border-box;
+padding-right: 9.5%;
+  resize: none;
+
+  /* smooth scroll */
+  scroll-behavior: smooth;
+
+  padding-left: 3;
+}
+
+
+.to-level16 {
+  position: absolute;
+  width: 7%;
+  height: 12%;
+
+  left: 87%;
+  top: 53%;
+
+  background: transparent;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+
+  background: 
+  border-radius:
+
+  cursor: pointer;
+}
+
+.back-to-leve5  {
+  position: absolute;
+  width: 7%;
+  height: 12.1%;
+
+  left: 11%;   /* atur posisi */
+  top: 53%;
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+
+  background: transparent;
+  color: 
+  font-weight: bold;
+  font-size: 16px;
+
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.to-level2-screen3 {
+  position: absolute;
+  width: 8.9%;
+  height: 15%;
+
+  left: 42.8%;   /* geser kiri kanan */
+  top: 27%;    /* geser atas bawah */
+
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+
+  background: transparent;
+  color: 
+  font-weight: bold;
+  font-size: 16px;
+
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* efek hover */
+.to-level2-screen3:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.hewan,
+.keranjang {
+  position: absolute;
+  user-select: none;
+}
+/* ================= */
+/* GAMBAR HEWAN */
+/* ================= */
+
+.kepompong {
+  width: 15%;
+  left: 23%;
+  top: 39%;
+}
+
+.tunas{
+  width: 6%;
+  left: 38%;
+  top: 37%;
+}
+
+.air {
+  width: 8%;
+  left: 50.4%;
+  top: 46%;
+}
+
+.bunga {
+  width:8%;
+  left: 63.5%;
+  top: 47%;
+}
+
+.ulat {
+  width: 9.5%;
+  left: 55%;
+  top: 56%;
+}
+
+.daun {
+  width: 7%;
+  left: 45%;
+  top: 55%;
+}
+
+.telurulat {
+  width: 7%;
+  left: 35%;
+  top: 56%;
+}
+
+.kupu-kupu {
+  width: 10%;
+  left: 44%;
+  top: 70%;
+}
+
+
+.kkupu-kupu {
+  width: 45%;
+  left: -1.5%;
+  top: 23%;
+}
+
+.kair {
+  width: 49%;
+  left: -5%;
+  top: 32%;
+}
+
+.ktunas {
+  width: 45%;
+  left: -0.5%;
+  top: 49%;
+}
+
+.kbunga {
+  width: 50%;
+  left: 8%;
+  top: 42.5%;
+}
+
+.ktelurulat {
+  width: 50%;
+  left: 39.5%;
+  top: 43%;
+}
+
+.kkepompong {
+  width: 45%;
+  left: 52.5%;
+  top: 48%;
+}
+
+
+.kdaun {
+  width: 50%;
+  left: 56%;
+  top: 33%;
+}
+
+.kulat {
+  width: 45%;
+  left: 55%;
+  top: 23%;
+}
+
+
+/* 🔥 untuk semua keranjang */
+.keranjang {
+  position: absolute;
+}
+
+/* 🔥 kotak tengah (area drop) */
+.keranjang::after {
+  content: "";
+  position: absolute;
+
+  width: 50px;
+  height: 50px;
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  border: 
+  background: 
+
+  pointer-events: none; 
+}
+
+
+.btn-ulang {
+  position: absolute;
+
+  width: 6%;
+  left: 85.7%;
+  top: 36%;
+
+  padding: 27px 27px;
+  font-size: 18px;
+
+  background: 
+  color: 
+  border: none;
+  border-radius: 8px;
+
+  z-index: 99999;
+  display: block;
+}
+
+
+
+#tampilNilai2 {
+  position: absolute;
+
+  top: 32%;
+  left: 45%;
+
+  font-size: 2vw;
+  font-weight: bold;
+  color: green;
+
+  z-index: 10;
+}
+
+
+
+
+.pena17-btn {
+  position: absolute;
+
+  width: 6%;
+  height: 12%;
+
+  left: 33.1%;
+  top: 17.6%;
+
+  background: 
+  border: none;
+  cursor: pointer;
+
+  z-index: 9999;
+}
+#screenPena17 {
+  position: relative;
+}
+
+#screenPena17 .to-screen3-from17 {
+  position: absolute;
+
+  width: 19%;
+  height: 13%;
+
+  left: 26.5%;
+  top: 77%;
+
+  background: 
+  border: none;
+
+  z-index: 99999;
+  cursor: pointer;
+}
+
+
+#screen15 {
+  position: relative;
+}
+
+#screen15 .to-screen3-from15 {
+  position: absolute;
+
+  width: 19%;
+  height: 13%;
+
+  left: 26%;
+  top: 88%;
+
+  background: 
+  border: none;
+
+  cursor: pointer;
+  z-index: 9999;
+}
+
+
+#screen16 {
+  position: relative;
+}
+
+#screen16 .to-screen1-from16 {
+  position: absolute;
+
+  width: 13%;
+  height: 15%;
+
+  left: 85.5%;
+  top: 17%;
+
+  background:
+  border: none;
+
+  cursor: pointer;
+  z-index: 9999;
+}
+
+
+#screen16 {
+  position: absolute
+}
+
+#screen16 .to-screen3-from16 {
+  position: absolute;
+
+  width: 13.5%;
+  height: 15%;
+
+  left: 71%;
+  top: 20%;
+
+  background: 
+  border: none;
+
+  cursor: pointer;
+  z-index: 9999;
+}
+
+
+#screen16 {
+  position: relative
+}
+
+#screen16 #nilaiGame16 {
+  position: absolute;
+
+  top: 100%;      /* atur naik turun */
+  right: 6%;     /* atur kiri kanan */
+
+  font-size: 22px;
+  font-weight: bold;
+
+  color: #2e7d32; /* hijau natural */
+
+  background: rgba(255, 255, 255, 0.7);
+  padding: 8px 14px;
+  border-radius: 10px;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+  z-index: 9999;
+}
+
+#screen15 {
+  position: relative;
+}
+#nilaiGameLevel2 {
+  position: absolute;
+
+  /* 🔥 ATUR POSISI DI SINI */
+  top: 75px;     /* ubah ke bawah/atas */
+  right: 486px;   /* ubah ke kiri/kanan */
+
+  /* 🔥 UKURAN & STYLE */
+  font-size: 20px;   /* besar kecil teks */
+  font-weight: bold;
+
+  color: #f346D0A
+  background: 
+
+  padding: 5px 10px;
+  border-radius: 12px;
+
+  z-index: 9999;
+
+  /* efek halus */
+  transition: all 0.3s ease;
+}
+
+
+
+#screen16 {
+  position: relative;
+}
+#btnNext {
+  position: absolute;
+
+  width: 5%;
+  height: 12%;
+  left: 24.5%;
+  top: 11%;
+
+  transform: translateX(-50%);
+  z-index: 9999;
+
+  padding: 12px 25px;
+  background: 
+  color: white;
+  border: none;
+  border-radius: 12px;
+}
+
+  /* kembali ke screen16*/
+#btnBack16 {
+  position: absolute;
+  transform: translateX(-50%);
+  width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 30%;
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+
+  background: 
+  color: 
+
+  border: none;
+
+
+  cursor: pointer;
+
+  box-shadow: 
+  z-index: 9999;
+
+  transition: 0.2s ease;
+}
+
+#btnBack16:hover {
+  transform: translateX(-50%) scale(1.05);
+}
+
+#btnBack16:active {
+  transform: translateX(-50%) scale(0.95);
+}
+
+ /* next ke screen pilar 19*/
+
+#btnNext19 {
+  width: 5%;
+  height: 12%;
+  top: 46%;
+  bottom: 8%;
+  left: 87%;
+
+
+  transform: translateX(-50%);
+  position: absolute;
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+
+  background: 
+  color: white;
+
+  border: none;
+ 
+
+  cursor: pointer;
+
+  z-index: 9999;
+}
+ /* back ke screen pilar 19*/
+#btnBack18 {
+  position: absolute;
+ width: 5%;
+  height: 12%;
+  top: 46%;
+  bottom: 8%;
+  left: 13%;
+  transform: translateX(-50%);
+
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+
+  background: 
+  color: white;
+
+  border: none;
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  z-index: 9999;
+}
+
+#screen19 {
+  position: relative;
+}
+
+#btnTo16 {
+  position: absolute;
+  width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 30%;
+
+  transform: translateX(-50%);
+
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+
+  background:  /* hijau biar beda */
+  color: white;
+
+  border: none;
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  z-index: 9999;
+}
+
+
+
+#screen19 {
+  position: relative;
+}
+
+#btnTo20 {
+  position: absolute;
+  width: 5%;
+  height: 12%;
+  top: 46%;
+  bottom: 8%;
+  left: 87%;
+  transform: translateX(-50%);
+
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+
+  background: 
+
+  border: none;
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  z-index: 9999;
+}
+
+
+
+/* BACK  pilar 20-19*/
+
+#screen20 {
+  position: relative;
+}
+
+#btnTo19 {
+  position: absolute;
+  width: 5%;
+  height: 12%;
+  top: 46%;
+  bottom: 8%;
+  left: 13%;
+  transform: translateX(-50%);
+
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+
+  background: 
+  color: white;
+
+  border: none;
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  z-index: 9999;
+}
+
+#screen20 {
+  position: relative;
+}
+
+#btnTo16 {
+  position: absolute;
+  width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 30%;
+  transform: translateX(-50%);
+
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+
+  background: 
+  color: white;
+
+  border: none;
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  z-index: 9999;
+}
+
+
+#screen20 {
+  position: relative;
+}
+
+#btnTo21 {
+  position: absolute;
+  width: 5%;
+  height: 12%;
+  top: 46%;
+  bottom: 8%;
+  left: 87%;
+  transform: translateX(-50%);
+
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+
+  background: 
+  color: white;
+
+  border: none;
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  z-index: 9999;
+}
+
+
+#screen21 {
+  position: relative;
+}
+
+#btnBack20 {
+  position: absolute;
+ width: 5%;
+  height: 12%;
+  top: 46%;
+  bottom: 8%;
+  left: 13%;
+  transform: translateX(-50%);
+
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+
+  background: 
+  color: white;
+
+  border: none;
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  z-index: 9999;
+}
+
+#screen21 {
+  position: relative;
+}
+
+#btnTo16From21 {
+  position: absolute;
+  width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 30%;
+  transform: translateX(-50%);
+
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+
+  background: 
+  color: white;
+
+  border: none;
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  z-index: 9999;
+}
+
+
+
+
+
+#screen21 {
+  position: relative;
+}
+
+#btnTo22 {
+  position: absolute;
+  width: 5%;
+  height: 12%;
+  top: 46%;
+  bottom: 8%;
+  left: 87%;
+  transform: translateX(-50%);
+
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+
+  background: 
+  color: white;
+
+  border: none;
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  z-index: 9999;
+}
+
+#screen22 {
+  position: relative;
+}
+
+#btnBack21 {
+  position: absolute;
+  width: 5%;
+  height: 12%;
+  top: 46%;
+  bottom: 8%;
+  left: 13%;
+  transform: translateX(-50%);
+
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+
+  background: 
+  color: white;
+
+  border: none;
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  z-index: 9999;
+}
+
+#screen22 {
+  position: relative;
+}
+
+#btnTo16From22 {
+  position: absolute;
+  width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 30%;
+  transform: translateX(-50%);
+
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+
+  background: 
+  color: white;
+
+  border: none;
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  z-index: 9999;
+}
+
+
+#screen22 {
+  position: relative;
+}
+
+#btnTo23 {
+  position: absolute;
+   width: 5%;
+  height: 12%;
+  top: 46%;
+  bottom: 8%;
+  left: 87%;
+  transform: translateX(-50%);
+
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+
+  background: 
+  color: white;
+
+  border: none;
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  z-index: 9999;
+}
+
+
+
+#screen23 {
+  position: relative;
+}
+
+#btnBack22 {
+  position: absolute;
+ width: 5%;
+  height: 12%;
+  top: 46%;
+  bottom: 8%;
+  left: 13%;
+  transform: translateX(-50%);
+
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+
+  background: 
+  color: white;
+
+  border: none;
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  z-index: 9999;
+}
+
+#screen23 {
+  position: relative;
+}
+
+#btnTo16From23 {
+  position: absolute;
+  width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 30%;
+  transform: translateX(-50%);
+
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+
+  background: 
+  color: white;
+
+  border: none;
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  z-index: 9999;
+}
+
+#screen23 {
+  position: relative;
+}
+
+#btnTo24 {
+  position: absolute;
+  width: 5%;
+  height: 12%;
+  top: 46%;
+  bottom: 8%;
+  left: 87%;
+  transform: translateX(-50%);
+
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+
+  background: 
+  color: white;
+
+  border: none;
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  z-index: 9999;
+}
+
+#screen24 {
+  position: relative;
+}
+
+#btnBack23 {
+  position: absolute;
+ width: 5%;
+  height: 12%;
+  top: 46%;
+  bottom: 8%;
+  left: 13%;
+  transform: translateX(-50%);
+
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+
+  background: 
+  color: white;
+
+  border: none;
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  z-index: 9999;
+}
+
+#screen24 {
+  position: relative;
+}
+
+#btnTo16From24 {
+  position: absolute;
+  width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 30%;
+  transform: translateX(-50%);
+
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+
+  background: 
+  color: white;
+
+  border: none;
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  z-index: 9999;
+}
+
+#screen24 {
+  position: relative;
+}
+
+#screen24 {
+  position: relative;
+}
+
+#screen24 {
+  position: relative;
+}
+
+
+
+
+#btnTo25From24 {
+  position: absolute;
+  width: 5%;
+  height: 12%;
+  top: 46%;
+  bottom: 8%;
+  left: 87%;
+  transform: translateX(-50%);
+
+  background: transparent;
+  border: none;
+  cursor: pointer;
+
+  z-index: 9999;
+}
+
+
+#btnBack24From25 {
+  position: absolute;
+  width: 5%;
+  height: 12%;
+  top: 46%;
+  bottom: 8%;
+  left: 13%;
+  transform: translateX(-50%);
+
+  background: transparent;
+  border: none;
+  cursor: pointer;
+
+  z-index: 9999;
+}
+
+#btnTo16From25 {
+  position: absolute;
+   width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 30%;
+  transform: translateX(-50%);
+
+  background: transparent;
+  border: none;
+  cursor: pointer;
+
+  z-index: 9999;
+}
+
+#btnTo18From25 {
+  position: absolute;
+ width: 5%;
+  height: 12%;
+  top: 46%;
+  bottom: 8%;
+  left: 87%;
+  transform: translateX(-50%);
+
+  background: transparent;
+  border: none;
+  cursor: pointer;
+.screen img.bg 
+  pointer-events: none;
+
+  z-index: 9999;
+}
+
+#btnTo25From18 {
+  position: absolute;
+  width: 5%;
+  height: 12%;
+  top: 46%;
+  bottom: 8%;
+  left: 13%;
+  transform: translateX(-50%);
+
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+
+/* =========================
+   SCORE LEVEL 2
+========================= */
+#nilaiGameLevel2 {
+ position: absolute;
+
+  top: 20%;     /* ubah ini untuk naik/turun */
+  right: 85.1%;   /* ubah ini untuk kiri/kanan */
+
+  font-size: 20px;
+  color: rgb(30, 117, 37);
+  font-weight: bold;
+
+  z-index: 9999;
+}
+
+#btnLevel3 {
+  position: absolute;
+ width: 8.9%;
+  height: 15%;
+  left: 53.7%;
+  top: 27%;
+
+  border: none;
+  border-radius: 16px;
+
+  background: 
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+
+  cursor: pointer;
+  z-index: 9999;
+}
+
+#btnToLevel2From26 {
+  position: absolute;
+
+  
+  transform: translateX(-50%);
+
+  width: 7%;
+  height: 12%;
+  top: 47.1%;
+  bottom: 8%;
+  left: 11.5%;
+
+  border: none;
+  border-radius: 18px;
+
+  background: 
+
+  cursor: pointer;
+  z-index: 9999;
+}
+
+#btnToLevel2From26:hover {
+  transform: translateX(-50%) scale(1.05);
+}
+
+#btnToLevel3From16 {
+  position: absolute;
+
+  width: 7%;
+  height: 12%;
+  left: 86%;
+  top: 53%;
+  background: 
+  border: none;
+ border-radius: 18px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+
+.base-a {
+  position: absolute;
+  width: 9.5%;
+  height: 12%;
+  left: 34%;
+  top: 63%;
+}
+
+
+.base-b {
+  position: absolute;
+  width: 8%;
+  height: 12%;
+  left: 27%;
+  top: 50%;
+}
+
+.base-c
+{
+  position: absolute;
+  width: 8%;
+  height: 12%;
+  left: 53%;
+  top: 64%;
+}
+
+.base-d
+{
+  position: absolute;
+  width: 9%;
+  height: 12%;
+  left: 61.5%;
+  top: 50%;
+}
+
+.keranjang1 {
+  position: absolute;
+  width: 47.5%;   /* ukuran juga bisa pakai persen */
+  height: auto;
+
+  left: -3%;
+  top: 20.3%;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+
+.keranjang2 {
+  position: absolute;
+  width: 47.5%;   /* ukuran juga bisa pakai persen */
+  height: auto;
+
+  left: -4.5%;
+  top: 33%;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.keranjang3 {
+  position: absolute;
+  width: 47.5%;   /* ukuran juga bisa pakai persen */
+  height: auto;
+
+  left: 56%;
+  top: 34%;
+
+  cursor: pointer;
+  user-select: none;
+}
+.keranjang4 {
+  position: absolute;
+  width: 47.5%;   /* ukuran juga bisa pakai persen */
+  height: auto;
+
+  left: 54%;
+  top: 21%;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+
+
+.kupu-d {
+  position: absolute;
+  width: 10%;   /* ukuran juga bisa pakai persen */
+  height: auto;
+
+  left: 15.5%;
+  top: 37%;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.kempo-c{
+  position: absolute;
+  width: 10%;   /* ukuran juga bisa pakai persen */
+  height: auto;
+
+  left: 11%;
+  top: 55%;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.ult-b {
+  position: absolute;
+  width: 10%;   /* ukuran juga bisa pakai persen */
+  height: auto;
+
+  left: 75%;
+  top: 55%;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.telur-a {
+  position: absolute;
+  width: 8%;   /* ukuran juga bisa pakai persen */
+  height: auto;
+
+  left: 73%;
+  top: 42%;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.bottom-btn {
+  position: absolute;
+
+  top: 18%;
+  left: 85.4%;
+ width: 14%;
+  transform: translate(-50%, -50%); /* 🔥 kunci ke tengah */
+
+  padding: 30px 30px;
+
+  font-weight: bold;
+
+  background: 
+  color: white;
+
+  border: none;
+  border-radius: 10px;
+
+  cursor: pointer;
+  z-index: 99999;
+}
+
+
+.bottom-btn-1 {
+  position: absolute;
+  bottom: 69%;
+  left: 70.7%;
+  transform: translateX(-50%, -50%);
+  width: 14%;
+
+  height: 12%;
+  padding: 35px 40px;
+  background: 
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+
+  font-weight: bold;
+  z-index: 999;
+
+}
+
+
+/* =========================
+  bototm mengikuti 100%
+========================= */
+
+.btn-reset {
+  position: absolute;
+
+  top: 34.5%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+
+  width: 14%;
+  padding: 5vh 1vw;
+
+  font-weight: bold;
+
+  background: 
+  color: white;
+
+  border: none;
+  border-radius: 10px;
+
+  cursor: pointer;
+  z-index: 99999;
+}
+
+
+
+#scoreLevel3 {
+  position: absolute;
+  top: 20%;
+  left: 9.8%;
+  transform: translateX(-50%, -50%);
+
+
+  font-size: 9px;
+  font-weight: bold;
+  color: #346D0A;
+  z-index: 99999;
+}
+
+
+.to-screen27-btn {
+  position: absolute;
+  width: 6%;
+  height: 12%;
+  left: 24%;
+  top: 17.6%;
+  background:  /* sementara biar terlihat */
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  z-index: 20;
+}
+
+
+.back-to-26 {
+  position: absolute;
+  width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36%;
+  background:  /* sementara biar terlihat */
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.to-screen28 {
+  position: absolute;
+    width: 10%;
+  height: 12%;
+  left: 87%;
+  top: 53%;
+
+  background:  /* sementara */
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  z-index: 20;
+}
+
+
+/* tombol kembali dari screen28 ke screen27 */
+.back-to-27 {
+  position: absolute;
+  width: 8%;
+  height: 15%;
+  top: 55%;
+  bottom: 8%;
+  left: 13%;
+  background: 
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  z-index: 30;
+}
+
+/* tombol SCREEN 28 -> SCREEN 26 (dipisah dari tombol screen27) */
+.to-screen26-from28 {
+  position: absolute;
+  width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36%;
+  
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.to-screen29 {
+  position: absolute;
+   width: 10%;
+  height: 12%;
+  left: 87%;
+  top: 53%;
+  background: 
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.back-to-28 {
+  position: absolute;
+  width: 8%;
+  height: 15%;
+  top: 55%;
+  bottom: 8%;
+  left: 13%;
+  background: 
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+/* tombol screen28 -> screen26 */
+.to-screen26-from28 {
+  position: absolute;
+  width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36%;
+  background: 
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.to-screen30 {
+  position: absolute;
+  width: 8%;
+  height: 15%;
+  top: 55%;
+  bottom: 8%;
+  left: 86.4%;
+  background: 
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+/* tombol kembali SCREEN 30 -> SCREEN 29 */
+.screen30-back {
+  position: absolute;
+  width: 8%;
+  height: 15%;
+  left: 13%;
+  top: 55%;
+  background: 
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+/* tombol SCREEN 30 -> SCREEN 26 */
+.screen30-home {
+  position: absolute;
+  width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36%;
+  background: 
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+/* tombol SCREEN 30 -> SCREEN 27 */
+.screen30-to27 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  left: 87%;
+  top: 53%;
+  background: 
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+/* tombol SCREEN 27 -> SCREEN 30 */
+.screen27-to30 {
+  position: absolute;
+  width: 8%;
+  height: 12%;
+  left: 13%;
+  top: 52%;
+  background: 
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+
+#tampilNilai3 {
+  position: absolute;
+
+  top: 35%;
+  left: 45%;
+
+  font-size: 2vw;
+  font-weight: bold;
+  color: green;
+
+  z-index: 10;
+}
+
+.to-level4-btn{
+  position: absolute;
+  width: 7%;
+  height: 10%;
+  top: 53%;
+  bottom: 8%;
+  left: 86.3%;
+  background: 
+  border: none;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.btn-back-26-from31{
+  position: absolute;
+  width: 7%;
+  height: 10%;
+  top: 53%;
+  bottom: 8%;
+  left: 11.5%;
+  background: 
+  border: none;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+/* =========================
+   BUTTON LEVEL 4 FROM SCREEN 3
+   ========================= */
+
+.to-level4-from3-btn {
+  position: absolute;
+ width: 8.9%;
+  height: 15%;
+  left: 65%;
+  top: 27%;
+
+  border: none;
+  border-radius: 16px;
+
+  background: 
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+
+  cursor: pointer;
+  z-index: 9999;
+}
+
+/* =========================
+   KERANJANG KETANG (LEVEL 4)
+   ========================= */
+
+
+.keranjang-ketang {
+  position: absolute;
+  width: 40%;        /* ukuran relatif layar */
+  left: 21.8%;         /* tengah horizontal */
+  top: 52%;          /* tengah vertical */
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  pointer-events: none;
+}
+
+.keranjang-cabai {
+  position: absolute;
+  width: 40%;          /* ukuran gambar */
+  left: 20%;           /* posisi horizontal */
+  top: 63%;            /* posisi vertical */
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 5;
+}
+
+
+.keranjang-semangka {
+  position: absolute;
+  width: 42%;          /* ukuran */
+  left: 22.1%;           /* posisi kiri */
+  top: 75%;            /* posisi bawah tengah */
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 5;
+}
+
+
+.keranjang-bawang-merah {
+  position: absolute;
+  width: 40%;          /* ukuran */
+  left: 32.5%;           /* tengah horizontal */
+  top: 75%;            /* agak bawah */
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 5;
+}
+
+.keranjang-bawang-putih {
+  position: absolute;
+  width: 45%;          /* ukuran */
+  left: 64%;           /* posisi kanan */
+  top: 74%;            /* agak bawah */
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 5;
+}
+
+.keranjang-wortel {
+  position: absolute;
+  width: 43%;          /* ukuran */
+  left: 75%;           /* posisi kiri bawah */
+  top: 75%;            /* lebih ke bawah */
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 5;
+}
+
+
+.keranjang-cabai-hijau {
+  position: absolute;
+  width: 45%;          /* ukuran */
+  left: 79.5%;           /* posisi tengah kanan */
+  top: 63%;            /* bagian bawah */
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 5;
+}
+
+.keranjang-jahe {
+  position: absolute;
+  width: 45%;          /* ukuran */
+  left: 77.5%;           /* posisi tengah */
+  top: 52%;            /* paling bawah area */
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 5;
+}
+
+
+.bawang-putih {
+  position: absolute;
+  width: 8%;          /* sedikit beda ukuran */
+  left: 31%;           /* posisi kiri bawah */
+  top: 46%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 5;
+}
+
+.cabai-hijau {
+  position: absolute;
+  width: 8%;          /* ukuran sedikit lebih kecil */
+  left: 42%;           /* posisi kanan bawah */
+  top: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 5;
+}
+
+.bawang-merah {
+  position: absolute;
+  width: 9%;
+  left: 55%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  pointer-events: none;
+}
+
+
+.wortel {
+  position: absolute;
+  width: 5%;
+  left: 68%;
+  top: 48%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+  pointer-events: auto;
+}
+
+.kentang {
+  position: absolute;
+  width: 8%;
+  left: 60%;
+  top: 58%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+  pointer-events: auto;
+}
+
+.jahe {
+  position: absolute;
+  width: 8%;
+  left: 49%;
+  top: 64%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+  pointer-events: auto;
+}
+
+.cabai-merah {
+  position: absolute;
+  width: 9%;
+  left: 39%;
+  top: 62%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+  pointer-events: auto;
+}
+
+
+.semangka {
+  position: absolute;
+  width: 5%;
+  left: 49%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+  pointer-events: auto;
+}
+
+.hewan {
+  pointer-events: auto !important;
+  position: absolute;
+  cursor: grab;
+}
+
+.hewan {
+  transition: transform 0.60s;
+}
+
+
+
+.btn-ulang-level4 {
+  position: absolute;
+  top: 34.5%;
+   height: 12%;
+  left: 86%;
+  transform: translateX(-50%, -50%);
+  padding: 50px 50px;
+
+  background: 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.btn-home-level4 {
+  position: absolute;
+  top: 19%;
+   height: 12%;
+  left: 85.5%;
+  padding: 50px 50px;
+  font-size: 16px;
+  background: 
+  color: white;
+  border: none;
+  border-radius: 8px;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+
+
+/* =========================
+   BUTTON STABIL TANPA GERAK
+========================= */
+
+.btn-back-level4 {
+  position: absolute;
+
+  width: 15%;
+  height: 12%;
+  left: 63.5%;
+  top: 15%;
+
+
+  border: none;
+  border-radius: 1vw;
+
+  background-color: 
+  color: transparent;
+
+  cursor: pointer;
+
+  z-index: 9999;
+
+  /* hilangkan style bawaan */
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  box-shadow: none;
+
+  /* posisi benar-benar stabil */
+  transform: none;
+
+  /* matikan animasi */
+  transition: none;
+}
+
+/* hover tetap diam */
+.btn-back-level4:hover {
+  opacity: 1;
+  transform: none;
+}
+
+/* klik tetap diam */
+.btn-back-level4:active {
+  opacity: 1;
+  transform: none;
+}
+
+
+#nilaiGameLevel4 {
+  position: absolute;
+  top: 20%;
+  left: 14%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  font-weight: bold;
+  color: #346D0A;
+  z-index: 9999;
+}
+
+.bottom-btn {
+  position: absolute;
+  width: 5%;
+  height: 12.5%;
+  left: 24.5%;
+  bottom: 5%;
+ padding: 20px20px;
+  background: 
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+}
+
+
+.bottom-btn-32 {
+  position: absolute;
+ width: 10%;
+  height: 12%;
+  left: 87%;
+  top: 53%;
+  
+  background: rgba(255, 255, 255, 0.2); 
+
+  border-radius: 12px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+
+.bottom-btn-33 {
+  position: absolute;
+ width: 8%;
+  height: 15%;
+  left: 13%;
+  top: 53%;
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 10;
+  
+}
+
+.bottom-btn-32-back {
+  position: absolute;
+  width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36%; 
+  bottom: 6%;
+ 
+  border-radius: 18px;
+  cursor: pointer;
+  z-index: 10;
+  
+}
+
+.bottom-btn-33-back {
+  position: absolute;
+ width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36%; 
+  bottom: 6%;
+  border-radius: 18px;
+  cursor: pointer;
+  z-index: 10;
+
+}
+
+.bottom-btn-33-next {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 86.3%;
+  
+  border-radius: 18px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.bottom-btn-34-back {
+  position: absolute;
+ width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 13%;
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 10;
+  
+}
+
+.bottom-btn-34-next {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  top: 53%;
+ 
+  left: 86.3%;
+  
+  border-radius: 18px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.bottom-btn-34-backlevel {
+  position: absolute;
+   width: 20%;
+  height: 12%;
+  left: 78%;
+  top: 36.5%;
+   bottom: 7%;
+  border:border-radius: 20px;
+  cursor: pointer;
+  z-index: 10;
+  background:dff5d8;
+
+}
+
+
+.bottom-btn-35-back {
+  position: absolute;
+ width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 13%;
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 10;
+  
+}
+
+.bottom-btn-35-home {
+  position: absolute;
+   width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36.5%;
+  
+  border: 
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 10;
+
+}
+
+.bottom-btn-35-next {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  top: 53%;
+ 
+  left: 86.3%;
+  
+  border-radius: 18px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+
+.bottom-btn-36-back {
+  position: absolute;
+ width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 13%;
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.bottom-btn-36-home {
+  position: absolute;
+   width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36.5%;
+  
+  border: 
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 10;
+
+}
+
+.bottom-btn-36-next {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  top: 53%;
+ 
+  left: 86.3%;
+  
+  border-radius: 18px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.bottom-btn-37-back {
+  position: absolute;
+ width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 13%;
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.bottom-btn-37-home {
+  position: absolute;
+   width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36.5%;
+  
+  border: 
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 10;
+
+}
+
+
+.bottom-btn-37-next {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  top: 53%;
+ 
+  left: 86.3%;
+  
+  border-radius: 18px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+
+.bottom-btn-38-back {
+  position: absolute;
+ width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 13%;
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.bottom-btn-38-home {
+  position: absolute;
+   width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36.5%;
+  
+  border: 
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 10;
+
+}
+
+
+.bottom-btn-38-next {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  top: 53%;
+ 
+  left: 86.3%;
+  
+  border-radius: 18px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.bottom-btn-39-back {
+  position: absolute;
+ width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 13%;
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.bottom-btn-39-home {
+  position: absolute;
+   width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36.5%;
+  
+  border: 
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 10;
+
+}
+
+.bottom-btn-39-next {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  top: 53%;
+ 
+  left: 86.3%;
+  
+  border-radius: 18px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.bottom-btn-31-next {
+  position: absolute;
+ width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 13%;
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.bottom-btn-31-next2 {
+  position: absolute;
+ width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 86.3%;
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+#tampilNilai4 {
+  position: absolute;
+
+  top: 38%;
+  left: 45%;
+
+  font-size: 2vw;
+  font-weight: bold;
+  color: green;
+
+  z-index: 10;
+}
+
+.btn-next-level4 {
+  position: absolute;
+  top: 19%;
+   height: 12%;
+  left: 85.5%;
+  padding: 50px 50px;
+  font-size: 16px;
+  background: 
+  color: white;
+  border: none;
+  border-radius: 8px;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.to-level5-btn {
+  position: absolute;
+ width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 86.3%;
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.btn-back-to-31 {
+  position: absolute;
+ width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 10%;
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+/* ITEM DRAG */
+.batang-pisang {
+  position: absolute;
+  top: 70%;
+  left: 79%;
+  width: 8vw; /* dari 7px */
+  cursor: grab;
+}
+
+/* AREA DROP */
+.keranjang-pisang {
+  position: absolute;
+  bottom: 35.5%;
+  right: 38%;
+  width: 10vw; /* dari 55px */
+}
+
+/* SCORE */
+.score {
+  position: absolute;
+  top: 20%;
+  right: 83%;
+  font-size: 2vw; /* dari 20px */
+  font-weight: bold;
+  color: #346D0A;
+}
+
+/* DRAG ITEM 2 */
+.batang-pisang-2 {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  width: 8vw;
+  cursor: grab;
+}
+
+/* DROP AREA 2 */
+.keranjang-pisang-2 {
+  position: absolute;
+  bottom: 35.5%;
+  right: 55%;
+  width: 11vw;
+}
+
+/* DRAG ITEM 3 */
+.tunas-pisang {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  width: 8vw;
+  cursor: grab;
+}
+
+/* DROP AREA 3 */
+.keranjang-tunas {
+  position: absolute;
+  bottom: 29%;
+  right: 36%;
+  width: 11vw;
+}
+
+/* DRAG ITEM 4 */
+.daun-pisang {
+  position: absolute;
+  top: 60%;
+  left: 77%;
+  width: 8vw;
+  cursor: grab;
+}
+
+/* DROP AREA 4 */
+.keranjang-daun {
+  position: absolute;
+  bottom: 44%;
+  right: 32%;
+  width: 11vw;
+}
+
+
+.nav-level5-btn {
+  position: absolute;
+
+  width: 8.9%;
+  height: 15%;
+
+  left: 31.7%;
+  top: 45%;
+
+  transform: translate(-50%, -50%); /* kunci dari titik tengah */
+
+  background-color: 
+  color: white;
+  border: none;
+  border-radius: 0.8vw;
+
+  cursor: pointer;
+  z-index: 9999;
+}
+.back-to-home-btn {
+  position: absolute;
+
+  width: 15%;
+  height: 15%;
+  left: 85%;
+  top: 20%;
+
+
+
+  transform: translate(-50%, -50%); /* kunci dari titik tengah */
+
+  background-color: 
+  color: white;
+
+  border: none;
+  border-radius: 0.8vw;
+
+  cursor: pointer;
+  z-index: 9999;
+
+  display: flex;              /* biar teks di tengah */
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.5vw;
+}
+
+/* efek klik */
+.back-to-home-btn:active {
+  transform: translate(-50%, -50%) scale(0.95);
+}
+
+
+
+.back-to-level3-btn {
+  position: absolute;
+ width: 15%;
+  height: 12%;
+  left: 70%;
+  top: 20%;
+
+ 
+  
+
+  background-color: 
+
+  border: none;
+  border-radius: 0.8vw;
+
+  cursor: pointer;
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.5vw;
+}
+
+/* efek klik */
+.back-to-level3-btn:active {
+  transform: translate(-50%, -50%) scale(0.95);
+}
+
+
+.btn-reset-level5 {
+  position: absolute;
+
+  width: 14%;
+  height: 15%;
+
+  left: 86%;  
+  top: 35%;
+
+  transform: translate(-50%, -50%);
+
+  background-color: 
+  color: white;
+
+  border: none;
+  border-radius: 0.8vw;
+
+  cursor: pointer;
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.5vw;
+}
+
+.btn-reset-level5:active {
+  transform: translate(-50%, -50%) scale(0.95);
+}
+
+.img-screen41 {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover; /* biar proporsional */
+}
+
+/* gambar full */
+.img-screen41 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* tombol home */
+.btn-home-41 {
+  position: absolute;
+
+  width: 8.9%;
+  height: 15%;
+
+  left: 20%;
+  top: 85%;
+
+  transform: translate(-50%, -50%);
+
+  background-color: #346D0A;
+  color: white;
+
+  border: none;
+  border-radius: 0.8vw;
+
+  cursor: pointer;
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.5vw;
+}
+
+/* tombol kembali */
+.btn-back-41 {
+  position: absolute;
+
+  width: 8.9%;
+  height: 15%;
+
+  left: 80%;
+  top: 85%;
+
+  transform: translate(-50%, -50%);
+
+  background-color: #555;
+  color: white;
+
+  border: none;
+  border-radius: 0.8vw;
+
+  cursor: pointer;
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.5vw;
+}/* gambar full */
+.img-screen41 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* tombol home */
+.btn-home-41 {
+  position: absolute;
+
+  width: 8.9%;
+  height: 15%;
+
+  left: 20%;
+  top: 85%;
+
+  transform: translate(-50%, -50%);
+
+  background-color: #346D0A;
+  color: white;
+
+  border: none;
+  border-radius: 0.8vw;
+
+  cursor: pointer;
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.5vw;
+}
+
+.btn-to-41 {
+  position: absolute;
+
+  width: 6%;
+  height: 12%;
+
+  left: 24.6%;
+  top: 17.6%;
+
+  transform: translate(-50%, -50%); /* center fix */
+
+  background-color: 
+  color: white;
+
+  border: none;
+  border-radius: 0.8vw;
+
+  cursor: pointer;
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+/* efek klik */
+.btn-to-41:active {
+  transform: translate(-50%, -50%) scale(0.95);
+}
+
+
+.btn-to-42 {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 87%;
+
+  transform: translate(-50%, -50%); /* center fix */
+
+  background-color: 
+  color: white;
+  
+
+  border: none;
+  border-radius: 0.8vw;
+
+  cursor: pointer;
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+.btn-back-41 {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 13%;
+
+  transform: translate(-50%, -50%);
+
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+
+  -webkit-appearance: none;
+  appearance: none;
+
+  cursor: pointer;
+  z-index: 9999;
+}
+
+
+.btn-to-40 {
+  position: absolute;
+
+width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36%; 
+  bottom: 6%;
+  transform: translate(-50%, -50%);
+
+  background-color: 
+  border: none;
+
+  cursor: pointer;
+  z-index: 9999;
+}
+
+
+
+.btn-to-43 {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 87%;
+
+
+  transform: translate(-50%, -50%);
+
+  background-color: 
+  border: none;
+
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.btn-to-42-back {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 13%;
+
+  transform: translate(-50%, -50%);
+
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.btn-to-40-from42 {
+  position: absolute;
+
+  width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36%; 
+  bottom: 6%;
+
+  transform: translate(-50%, -50%);
+
+  background-color: 
+  border: none;
+
+  cursor: pointer;
+  z-index: 9999;
+}
+
+
+.btn-to-40-from43 {
+  position: absolute;
+
+  width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36%; 
+  bottom: 6%;
+
+  transform: translate(-50%, -50%);
+
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+  z-index: 9999;
+}
+
+
+.btn-to-44 {
+  position: absolute;
+
+ width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 87%;
+
+  transform: translate(-50%, -50%);
+
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.btn-to-43-from44 {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 13%;
+
+  transform: translate(-50%, -50%);
+
+  background-color: transparent; #346D0A;
+  border: none;
+
+  cursor: pointer;
+  z-index: 9999;
+}
+
+
+.btn-to-40-from44 {
+  position: absolute;
+
+  width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36%; 
+  bottom: 6%;
+  transform: translate(-50%, -50%);
+
+  background-color: 
+  border: none;
+
+  cursor: pointer;
+  z-index: 9999;
+}
+
+
+.btn-to-41-from44 {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 87%;
+
+
+  transform: translate(-50%, -50%);
+
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+  z-index: 9999;
+}
+
+
+.btn-to-44-from41 {
+  position: absolute;
+
+ width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 13%;
+
+  transform: translate(-50%, -50%);
+
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+  z-index: 9999;
+}
+
+
+
+#tampilNilai5 {
+  position: absolute;
+
+  top: 41%;
+  left: 45%;
+
+  font-size: 2vw;
+  font-weight: bold;
+  color: green;
+
+  z-index: 10;
+}
+
+
+
+.bottom-btn-40-to45 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+
+  background: 
+  border: 2px solid #00aaff;
+  border-radius: 20px;
+
+  cursor: pointer;
+  z-index: 10;
+  transition: 0.25s ease;
+}
+
+.bottom-btn-40-to45:hover {
+  background: 
+  transform: translate(-50%, -50%) scale(1.08);
+}
+
+.bottom-btn-45-to40 {
+  position: absolute;
+   width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 11%;
+  transform: translate(-50%, -50%);
+
+  background: 
+  border: 
+  border-radius: 20px;
+
+  cursor: pointer;
+  z-index: 10;
+  transition: 0.25s ease;
+}
+
+.bottom-btn-45-to40:hover {
+  background: 
+  transform: 
+}
+
+
+.bottom-btn-3-to45 {
+  position: absolute;
+  width: 8.9%;
+  height: 15%;
+  left: 42.5%;
+  top: 45%;
+
+  transform: translate(-50%, -50%);
+
+  background: 
+  border: 2px solid #00d4ff;
+  border-radius: 20px;
+
+  cursor: pointer;
+  z-index: 10;
+  transition: 0.25s ease;
+}
+
+.bottom-btn-3-to45:hover {
+  background: 
+  transform: 
+}
+
+
+
+/* =========================
+   BUTTON SCREEN 45 → HOME
+========================= */
+.bottom-btn-45-home {
+  position: absolute;
+  width: 15%;
+  height: 15%;
+  left: 85%;
+  top: 20%;
+
+
+  transform: translate(-50%, -50%);
+
+  background: none;
+  border-radius: 0.8vw;
+
+  cursor: pointer;
+  z-index: 9999;
+
+  transition: 0.25s ease;
+}
+
+/* efek hover biar hidup */
+.bottom-btn-45-home:hover {
+  background: 
+  transform: 
+}
+
+/* =========================
+   RESET BUTTON LEVEL 6
+========================= */
+.btn-reset-level6 {
+  position: absolute;
+  top: 34.5%;
+   height: 12%;
+  left: 86%;
+  transform: translateX(-50%, -50%);
+  padding: 50px 50px;
+
+  background: 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+/* =========================
+   SCORE LEVEL 6
+========================= */
+#nilaiGameLevel6 {
+  position: absolute;
+  top: 20%;
+  left: 13%;
+  transform: translateX(-50%);
+
+  font-size: 18px;
+  font-weight: bold;
+  color: #2e7d32;
+
+  background: rgba(255,255,255,0.5);
+  padding: 5px 10px;
+  border-radius: 10px;
+
+  text-align: center;
+  z-index: 10;
+}
+/* =========================
+   BUTTON SCREEN 45 → SCREEN 3
+========================= */
+.bottom-btn-45-to3 {
+  position: absolute;
+  width: 15%;
+  height: 12%;
+  left: 70%;
+  top: 20%;
+
+
+  transform: translate(-50%, -50%);
+
+  background: 
+  border: 2px solid #00ff88;
+  border-radius: 22px;
+
+  cursor: pointer;
+  z-index: 10;
+
+  transition: 0.25s ease;
+}
+
+
+/* efek hover */
+.bottom-btn-45-to3:hover {
+  background: 
+  transform: 
+}
+/* =========================
+   OBJEK DRAG & DROP
+========================= */
+
+/* BUAH */
+.buah-kentang {
+  position: absolute;
+  width: 10%;
+  left: 17%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+.keranjang-buah-kentang {
+  position: absolute;
+  width: 15%;
+  left: 36%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+}
+
+/* AKAR */
+.akar-kentang {
+  position: absolute;
+  width: 10%;
+  left: 28%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+.keranjang-akar-kentang {
+  position: absolute;
+  width: 15%;
+  left: 63%;
+  top: 61%;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+}
+
+/* DAUN */
+.daun-kentang {
+  position: absolute;
+  width: 10%;
+  left: 70%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+.keranjang-daun-kentang {
+  position: absolute;
+  width: 15%;
+  left: 63%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5 ;
+}
+
+/* BATANG */
+.batang-kentang {
+  position: absolute;
+  width: 10%;
+  left: 83%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+.keranjang-kentang {
+  position: absolute;
+  width: 15%;
+  left: 36.5%;
+  top: 57%;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+}
+
+/* =========================
+   BUTTON SCREEN 45 → SCREEN 46
+========================= */
+.bottom-btn-45-to46 {
+  position: absolute;
+    width: 8.9%;
+  height: 15%;
+  left: 24%;
+  top: 17%;
+  transform: translate(-50%, -50%);
+
+  background: 
+  border: 2px solid 
+  border-radius: 22px;
+
+  cursor: pointer;
+  z-index: 10;
+
+  transition: 0.25s ease;
+}
+
+.bottom-btn-45-to46:hover {
+  background: 
+  transform: translate(-50%, -50%) scale(1.08);
+}
+
+
+/* =========================
+   BUTTON SCREEN 46 → SCREEN 45
+========================= */
+.bottom-btn-46-to45 {
+  position: absolute;
+  width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36%;
+
+  transform: translate(-50%, -50%);
+
+  background: 
+  border: 2px solid #ff9900;
+  border-radius: 22px;
+
+  cursor: pointer;
+  z-index: 10;
+
+  transition: 0.25s ease;
+}
+
+.bottom-btn-46-to45:hover {
+  background: 
+  transform: translate(-50%, -50%) scale(1.08);
+}
+
+
+
+/* =========================
+   BUTTON 46 → 47
+========================= */
+#screen46 .btn-to-47 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+
+  background: 
+  border: 2px solid #00d4ff;
+  border-radius: 22px;
+
+  cursor: pointer;
+  z-index: 10;
+
+  transition: 0.25s ease;
+}
+
+#screen46 .btn-to-47:hover {
+  background: 
+  transform: 
+}
+
+
+
+/* =========================
+   BUTTON SCREEN 47 → 48
+========================= */
+#screen47 .btn-to-48 {
+  position: absolute;
+   width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 87%;
+
+  transform: translate(-50%, -50%);
+
+  background: 
+  border: 2px 
+  border-radius: 22px;
+
+  cursor: pointer;
+  z-index: 10;
+
+  transition: 0.25s ease;
+}
+
+#screen47 .btn-to-48:hover {
+  background: 
+  transform: 
+}
+
+
+
+
+/* =========================
+   BUTTON SCREEN 48 → 49
+========================= */
+#screen48 .btn-to-49 {
+  position: absolute;
+   width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 87%;
+
+  transform: translate(-50%, -50%);
+
+  background: 
+  border: 2px 
+  border-radius: 22px;
+
+  cursor: pointer;
+  z-index: 10;
+
+  transition: 0.25s ease;
+}
+
+#screen48 .btn-to-49:hover {
+  background: 
+  transform: 
+}
+
+
+
+/* =========================
+   SCREEN 47 → SCREEN 45 (BACK)
+========================= */
+#screen47 .btn-back-45 {
+  position: absolute;
+  width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36%; 
+  bottom: 6%;
+  transform: translate(-50%, -50%);
+
+  background: 
+  border: 2px solid 
+  border-radius: 22px;
+
+  cursor: pointer;
+  z-index: 10;
+
+  transition: 0.25s ease;
+}
+
+#screen47 .btn-back-45:hover {
+  background: 
+  transform: 
+}
+
+
+#screen48 .btn-back-45 {
+  position: absolute;
+  width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36%; 
+  bottom: 6%;
+  transform: translate(-50%, -50%);
+
+  background: 
+  border: 2px solid 
+  border-radius: 22px;
+
+  cursor: pointer;
+  z-index: 10;
+
+  transition: 0.25s ease;
+}
+
+#screen47 .btn-back-45:hover {
+  background: 
+  transform: 
+}
+
+
+#screen49 .btn-back-45 {
+  position: absolute;
+  width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36%; 
+  bottom: 6%;
+  transform: translate(-50%, -50%);
+
+  background: 
+  border: 2px solid 
+  border-radius: 22px;
+
+  cursor: pointer;
+  z-index: 10;
+
+  transition: 0.25s ease;
+}
+
+#screen47 .btn-back-45:hover {
+  background: 
+  transform: 
+}
+
+
+/* =========================
+   SCREEN 46 → SCREEN 49
+========================= */
+#screen46 .btn-to-49 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 13%;
+  transform: translate(-50%, -50%);
+
+  background: 
+  border: 2px solid #00d4ff;
+  border-radius: 22px;
+
+  cursor: pointer;
+  z-index: 10;
+
+  transition: 0.25s ease;
+}
+
+#screen46 .btn-to-49:hover {
+  background: 
+  transform: 
+}
+
+
+
+/* =========================
+   SCREEN 47 → SCREEN 46 (BACK)
+========================= */
+#screen47 .btn-back-46 {
+  position: absolute;
+ width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 13%;
+  transform: translate(-50%, -50%);
+
+  background: 
+  border: 2px solid #ff9900;
+  border-radius: 22px;
+
+  cursor: pointer;
+  z-index: 10;
+
+  transition: 0.25s ease;
+}
+
+#screen47 .btn-back-46:hover {
+  background: 
+  transform: 
+}
+
+
+#screen48 .btn-back-47 {
+  position: absolute;
+ width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 13%;
+  transform: translate(-50%, -50%);
+
+  background: 
+  border: 2px solid #ff9900;
+  border-radius: 22px;
+
+  cursor: pointer;
+  z-index: 10;
+
+  transition: 0.25s ease;
+}
+
+#screen48 .btn-back-47:hover {
+  background: 
+  transform: 
+}
+
+
+
+#screen49 .btn-back-48 {
+  position: absolute;
+ width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 13%;
+  transform: translate(-50%, -50%);
+
+  background: 
+  border: 2px solid #ff9900;
+  border-radius: 22px;
+
+  cursor: pointer;
+  z-index: 10;
+
+  transition: 0.25s ease;
+}
+
+#screen48 .btn-back-47:hover {
+  background: 
+  transform: 
+}
+
+
+#screen49 .btn-to-46 {
+  position: absolute;
+   width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 87%;
+
+  transform: translate(-50%, -50%);
+
+  background: 
+  border: 2px solid #00d4ff;
+  border-radius: 22px;
+
+  cursor: pointer;
+  z-index: 10;
+
+  transition: 0.25s ease;
+}
+
+#screen46 .btn-to-49:hover {
+  background: 
+  transform: 
+}
+
+
+
+
+#tampilNilai6 {
+  position: absolute;
+
+  top: 44%;
+  left: 45%;
+
+  font-size: 2vw;
+  font-weight: bold;
+  color: green;
+
+  z-index: 10;
+}
+
+/* BUTTON KE SCREEN 50 (LEVEL 7) */
+#screen45 .to-screen50 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 87%;
+
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+
+  /* WARNA */
+  background: transparan */
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+
+#screen50 .to-screen45 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 11%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+
+  background:  
+  border: 2px solid blue;
+  border-radius: 10px;
+}
+
+
+#screen50 .to-screen1 {
+  position: absolute;
+   width: 15%;
+  height: 15%;
+  left: 85%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+
+  background: transparan 
+  border: 2px solid green;
+  border-radius: 10px;
+}
+
+
+#screen50 .to-screen3 {
+  position: absolute;
+  width: 16.5%;
+  height: 14%;
+  top: 20%;
+ left: 70%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+
+  background:  */
+  border: 2px solid yellow;
+  border-radius: 10px;
+}
+
+#screen50 .to-screen51 {
+  position: absolute;
+ width: 6%;
+  height: 12%;
+  left: 24.6%;
+  top: 17.6%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+
+  background: ungu transparan */
+  border: 2px 
+  border-radius: 10px;
+}
+
+#screen51 .to-screen50 {
+  position: absolute;
+   width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36%;
+
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+
+  background:  biru muda transparan */
+  border: 
+  border-radius: 10px;
+}
+
+
+#screen51 .to-screen52 {
+  position: absolute;
+   width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+
+  background: 
+  border: 2px solid orange;
+  border-radius: 10px;
+}
+
+
+#screen52 .to-screen51 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 13%;
+  transform: 
+  cursor: pointer;
+
+  background: 
+  border: 2px solid purple;
+  border-radius: 10px;
+}
+
+#screen52 .to-screen50 {
+  position: absolute;
+   width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+
+  background: 
+  border: 2px solid green;
+  border-radius: 10px;
+}
+
+#screen52 .to-screen53 {
+  position: absolute;
+   width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 87%;
+
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+
+  background: rgba
+  border: 2px 
+  border-radius: 10px;
+}
+
+#screen53 .to-screen50 {
+  position: absolute;
+  width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+
+  background: 
+  border: 2px solid indigo;
+  border-radius: 10px;
+}
+
+
+#screen53 .to-screen54 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+
+  background: 
+  border: 2px 
+  border-radius: 10px;
+}
+
+#screen54 .to-screen53 {
+  position: absolute;
+width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 13%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+
+  background: 
+  border: 
+  border-radius: 10px;
+}
+
+
+#screen53 .to-screen52 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 13%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+
+  background: 
+  border: 2px solid darkturquoise;
+  border-radius: 10px;
+}
+
+#screen54 .to-screen50 {
+  position: absolute;
+  width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+
+  background: 
+  border: 2px 
+  border-radius: 10px;
+}
+
+#screen54 .to-screen51 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+
+  background: 
+  border: 2px 
+  border-radius: 10px;
+}
+
+
+#screen51 .to-screen54 {
+  position: absolute;
+ width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 13%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+
+  background: 
+  border: 2px 
+  border-radius: 10px;
+}
+
+#screen3 .to-screen50-from3 {
+  position: absolute;
+   width: 8.9%;
+  height: 15%;
+  left: 53.5%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+
+  background: rgba
+  border: 2px solid springgreen;
+  border-radius: 10px;
+}
+
+
+
+#screen50 .drag-wortel {
+  position: absolute;
+  width: 12%;
+  left: 20%;
+  top: 70%;
+  cursor: grab;
+  z-index: 2;
+}
+
+#screen50 .drop-wortel {
+  position: absolute;
+  width: 15%;
+  left: 63%;
+  top: 53%;
+  transform: translate(-50%, -50%);
+
+  /* DEBUG AREA */
+  background: rgba(0, 0, 255, 0.2);
+}
+
+/* DRAG BUAH WORTEL */
+#screen50 .drag-buah-wortel {
+  position: absolute;
+  width: 12%;
+  left: 30%;
+  top: 70%;
+  cursor: grab;
+  z-index: 2;
+}
+
+/* TARGET DROP BUAH WORTEL */
+#screen50 .drop-buah-wortel {
+  position: absolute;
+  width: 20%;
+  left: 60%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+
+  /* DEBUG AREA */
+  background: rgba(255, 165, 0, 0.2); /* oranye transparan */
+  border: 2px solid orange;
+  border-radius: 10px;
+}
+
+
+/* DRAG */
+#screen50 .hewan {
+  position: absolute;
+  width: 11%;
+  cursor: grab;
+    transform: translate(-50%, -50%);
+}
+
+/* DROP */
+#screen50 .keranjang {
+  position: absolute;
+  width: 15%;
+    transform: translate(-50%, -50%);
+}
+
+/* POSISI AWAL DRAG */
+.batang-wortel { left: 76%; top: 80%; }
+.buah-wortel { left: 80%; top: 63%; }
+.akar-wortel { left: 18%; top: 63%; }
+.daun-wortel { left: 22%; top: 80%; }
+
+/* POSISI DROP */
+.keranjang-batang { left: 62%; top: 53%; }
+.keranjang-buah { left: 36%; top: 63%; }
+.keranjang-akar { left: 64%; top: 63%; }
+.keranjang-daun { left: 36%; top: 50%; }
+
+/* RESET BUTTON */
+#screen50 .btn-reset-level7 {
+  position: absolute;
+  width: 15%;
+  height: 15%;
+  left: 86%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  background: rgba
+  border: 2px 
+}
+
+#tampilNilai7 {
+  position: absolute;
+
+  top: 47%;
+  left: 45%;
+
+  font-size: 2vw;
+  font-weight: bold;
+  color: green;
+
+  z-index: 10;
+}
+
+#scoreLevel7 {
+  position: absolute;
+
+  top: 20%;
+  left: 14%;
+  transform: translate(-50%, 0);
+
+  font-size: clamp(12px, 3vw, 34px);
+  font-weight: bold;
+
+  color: white;
+
+  background: 
+  padding: 8px 18px;
+  border-radius: 12px;
+  color: #346D0A;
+  z-index: 999;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.btn-level8 {
+  position: absolute;
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  background: 
+  z-index: 999;
+  text-align: center;
+  border: 2px 
+  border-radius: 10px;
+}
+
+
+.bottom-to-level7 {
+  position: absolute;
+
+  top: 52.5%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+
+  width: 10%;
+  height: 12%;
+
+  background: 
+  border: none;
+  border-radius: 2%;
+
+  color: white;
+  font-size: 1.2vw;
+  font-weight: bold;
+
+  cursor: pointer;
+  z-index: 999;
+  text-align: center;
+
+  box-shadow: 
+  transition: 0.2s ease;
+}
+
+.bottom-to-screen3 {
+  position: absolute;
+width: 15%;
+  height: 12%;
+  left: 70%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  background: 
+  border: none;
+  border-radius: 2%;
+
+  color: white;
+  font-size: 1.2vw;
+  font-weight: bold;
+
+  cursor: pointer;
+  z-index: 999;
+  text-align: center;
+
+  box-shadow: 
+  transition: 0.2s ease;
+}
+
+.bottom-to-screen1 {
+  position: absolute;
+  width: 15%;
+  height: 15%;
+  left: 85%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  border: none;
+  border-radius: 2%;
+  color: white;
+  font-size: 1.2vw;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 999;
+  text-align: center;
+  transition: 0.2s ease;
+}
+
+.bottom-to-screen56 {
+  position: absolute;
+  width: 5%;
+  height: 12%;
+  top: 18%;
+  bottom: 8%;
+  left: 24.5%;
+
+
+  transform: translate(-50%, -50%);
+
+  background: 
+  border: none;
+  border-radius: 2%;
+
+  color: white;
+  font-size: 1.2vw;
+  font-weight: bold;
+
+  cursor: pointer;
+  z-index: 999;
+  text-align: center;
+
+  box-shadow: 
+  transition: 0.2s ease;
+}
+
+
+.bottom-to-screen55 {
+  position: absolute;
+
+ width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36%;
+
+ 
+  transform: translate(-50%, -50%);
+
+
+  background: 
+  border: none;
+  border-radius: 2%;
+
+  color: white;
+  font-size: 1.2vw;
+  font-weight: bold;
+
+  cursor: pointer;
+  z-index: 999;
+  text-align: center;
+
+  box-shadow: 
+  transition: 0.2s ease;
+}
+
+.bottom-to-screen57 {
+  position: absolute;
+
+width: 8%;
+height: 12%;
+top: 52%;
+bottom: 8%;
+left: 87%;
+transform: translate(-50%, -50%);
+background: 
+border: none;
+border-radius: 2%;
+color: white;
+font-size: 1.2vw;
+  font-weight: bold;
+
+  cursor: pointer;
+  z-index: 999;
+  text-align: center;
+
+  box-shadow: 
+  transition: 0.2s ease;
+}
+
+.bottom-to-screen55-from57 {
+  position: absolute;
+
+width: 20%;
+height: 12%;
+left: 81%;
+top: 36%;
+
+ 
+  transform: translate(-50%, -50%);
+
+  background: 
+  border: none;
+  border-radius: 2%;
+
+  color: white;
+  font-size: 1.2vw;
+  font-weight: bold;
+
+  cursor: pointer;
+  z-index: 999;
+  text-align: center;
+
+  box-shadow: 
+  transition: 0.2s ease;
+}
+
+.bottom-to-screen55-from57:hover {
+  transform: 
+  background: linear-gradient(135deg, #FFB74D, #EF6C00);
+}
+
+
+.bottom-to-screen58 {
+  position: absolute;
+
+width: 8%;
+height: 12%;
+top: 52%;
+bottom: 8%;
+left: 87%;
+
+ 
+  transform: translate(-50%, -50%);
+
+
+  background: 
+  border: none;
+  border-radius: 2%;
+
+  color: white;
+  font-size: 1.2vw;
+  font-weight: bold;
+
+  cursor: pointer;
+  z-index: 999;
+  text-align: center;
+
+  box-shadow: 
+  transition: 0.2s ease;
+}
+
+.bottom-to-screen59 {
+  position: absolute;
+
+
+width: 8%;
+height: 12%;
+top: 52%;
+bottom: 8%;
+left: 87%;
+
+ 
+  transform: translate(-50%, -50%);
+
+
+  background: 
+  border: none;
+  border-radius: 2%;
+
+  color: white;
+  font-size: 1.2vw;
+  font-weight: bold;
+
+  cursor: pointer;
+  z-index: 999;
+  text-align: center;
+
+  box-shadow: 
+  transition: 0.2s ease;
+}
+
+
+.bottom-to-screen60 {
+  position: absolute;
+
+width: 8%;
+height: 12%;
+top: 52%;
+bottom: 8%;
+left: 87%;
+
+transform: translate(-50%, -50%);
+  background: 
+  border: none;
+  border-radius: 2%;
+
+  color: white;
+  font-size: 1.2vw;
+  font-weight: bold;
+
+  cursor: pointer;
+  z-index: 999;
+  text-align: center;
+
+  box-shadow: 
+  transition: 0.2s ease;
+}
+
+
+.bottom-to-screen55-from60 {
+  position: absolute;
+
+width: 20%;
+height: 12%;
+left: 81%;
+top: 36%;
+
+
+  transform: translate(-50%, -50%);
+
+  background: 
+  border: none;
+  border-radius: 2%;
+
+  color: white;
+  font-size: 1.2vw;
+  font-weight: bold;
+
+  cursor: pointer;
+  z-index: 999;
+  text-align: center;
+
+  box-shadow: 
+  transition: 0.2s ease;
+}
+
+.bottom-to-screen55-from59 {
+  position: absolute;
+
+width: 20%;
+height: 12%;
+left: 81%;
+top: 36%;
+
+  transform: translate(-50%, -50%);
+
+  background: 
+  border: none;
+  border-radius: 2%;
+
+  color: white;
+  font-size: 1.2vw;
+  font-weight: bold;
+
+  cursor: pointer;
+  z-index: 999;
+  text-align: center;
+
+  box-shadow: 
+  transition: 0.2s ease;
+}
+
+.bottom-to-screen55-from58 {
+  position: absolute;
+
+width: 20%;
+height: 12%;
+left: 81%;
+top: 36%;
+
+  transform: translate(-50%, -50%);
+
+
+  background: 
+  border: none;
+  border-radius: 2%;
+
+  color: white;
+  font-size: 1.2vw;
+  font-weight: bold;
+
+  cursor: pointer;
+  z-index: 999;
+  text-align: center;
+
+  box-shadow: 
+  transition: 0.2s ease;
+}
+
+
+
+.bottom-to-screen60-back {
+  position: absolute;
+ 
+ top: 52.5%;
+left: 12.5%;
+width: 10%;
+height: 13%;
+ transform: translate(-50%, -50%);
+  background: 
+  border: none;
+  border-radius: 12px;
+
+  cursor: pointer;
+  box-shadow: 
+
+}
+
+#screen60 {
+  position: relative;
+}
+
+#screen60 {
+  position: relative;
+}
+
+#screen60 {
+  position: relative;
+}
+
+/* tombol utama */
+#screen60 .btn-screen56 {
+  position: absolute;
+width: 8%;
+height: 12%;
+top: 47%;
+bottom: 8%;
+left: 87%;
+
+  transform: translateX(-50%);
+
+  border: none;
+  border-radius: 1.2%;
+
+  background: 
+
+  cursor: pointer;
+
+  box-shadow: 
+
+  transition: opacity 0.2s ease, box-shadow 0.2s ease;
+
+  will-change: transform;
+}
+
+/* hover (tanpa scale biar tidak geser) */
+#screen60 .btn-screen56:hover {
+  opacity: 0.9;
+  box-shadow: 0 0.8% 1.8% rgba(0, 0, 0, 0.45);
+}
+
+/* klik */
+#screen60 .btn-screen56:active {
+  opacity: 0.75;
+  box-shadow: 0 0.3% 1% rgba(0, 0, 0, 0.3);
+}
+
+
+#screen60 .btn-screen59 {
+  position: absolute;
+
+width: 8%;
+height: 12%;
+top: 47%;
+bottom: 8%;
+left: 13%;
+  transform: translateX(-50%);
+  border: none;
+  border-radius: 1.2%;
+
+  background: 
+
+  cursor: pointer;
+
+  box-shadow: 0 0.5% 1.2% rgba(0, 0, 0, 0.35);
+
+  transition: opacity 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* hover */
+#screen60 .btn-screen59:hover {
+  opacity: 0.9;
+  box-shadow: 0 0.8% 1.8% rgba(0, 0, 0, 0.45);
+}
+
+/* klik */
+#screen60 .btn-screen59:active {
+  opacity: 0.75;
+  box-shadow: 0 0.3% 1% rgba(0, 0, 0, 0.3);
+}
+
+
+#screen58 {
+  position: relative;
+}
+
+/* tombol screen58 → screen57 */
+#screen58 .btn-screen57 {
+  position: absolute;
+
+ 
+  transform: translateX(-50%);
+
+  width: 8%;
+height: 12%;
+top: 47%;
+bottom: 8%;
+left: 13%;
+
+  border: none;
+  border-radius: 1.2%;
+
+  background: 
+
+  cursor: pointer;
+
+  box-shadow: 0 0.5% 1.2% rgba(0, 0, 0, 0.35);
+
+  transition: opacity 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* hover */
+#screen58 .btn-screen57:hover {
+  opacity: 0.9;
+  box-shadow: 0 0.8% 1.8% rgba(0, 0, 0, 0.45);
+}
+
+/* klik */
+#screen58 .btn-screen57:active {
+  opacity: 0.75;
+  box-shadow: 0 0.3% 1% rgba(0, 0, 0, 0.3);
+}
+
+#screen57 {
+  position: relative;
+}
+
+/* tombol screen57 → screen56 */
+#screen57 .btn-screen56 {
+  position: absolute;
+
+  width: 8%;
+height: 12%;
+top: 47%;
+bottom: 8%;
+left: 13%;
+  transform: translateX(-50%);
+
+
+
+  border: none;
+  border-radius: 1.2%;
+
+  background: 
+
+  cursor: pointer;
+
+  box-shadow: 0 0.5% 1.2% rgba(0, 0, 0, 0.35);
+
+  transition: opacity 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* hover */
+#screen57 .btn-screen56:hover {
+  opacity: 0.9;
+  box-shadow: 0 0.8% 1.8% rgba(0, 0, 0, 0.45);
+}
+
+/* klik */
+#screen57 .btn-screen56:active {
+  opacity: 0.75;
+  box-shadow: 0 0.3% 1% rgba(0, 0, 0, 0.3);
+}
+
+
+#screen59 {
+  position: relative;
+}
+
+/* tombol screen59 → screen58 */
+#screen59 .btn-screen58 {
+  position: absolute;
+
+width: 8%;
+height: 12%;
+top: 47%;
+bottom: 8%;
+left: 13%;
+  transform: translateX(-50%);
+
+  border: none;
+  border-radius: 1.2%;
+
+  background: 
+
+  cursor: pointer;
+
+  box-shadow: 0 0.5% 1.2% rgba(0, 0, 0, 0.35);
+
+  transition: opacity 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* hover */
+#screen59 .btn-screen58:hover {
+  opacity: 0.9;
+  box-shadow: 0 0.8% 1.8% rgba(0, 0, 0, 0.45);
+}
+
+/* klik */
+#screen59 .btn-screen58:active {
+  opacity: 0.75;
+  box-shadow: 0 0.3% 1% rgba(0, 0, 0, 0.3);
+}
+
+
+#screen3 {
+  position: relative;
+}
+
+/* tombol screen3 → screen56 */
+#screen3 .btn-screen55-from3 {
+  position: absolute;
+width: 8.9%;
+height: 15%;
+left: 64.5%;
+top: 36%;
+  transform: translateX(-50%);
+  border: none;
+  border-radius: 1.2%;
+
+  background: #2e7d32
+
+  
+
+  cursor: pointer;
+
+  box-shadow: 0 0.5% 1.2% rgba(0, 0, 0, 0.35);
+
+  transition: opacity 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* hover */
+#screen3 .btn-screen55-from3:hover {
+  opacity: 0.9;
+  box-shadow: 0 0.8% 1.8% rgba(0, 0, 0, 0.45);
+}
+
+/* klik */
+#screen3 .btn-screen55-from3:active {
+  opacity: 0.75;
+  box-shadow: 0 0.3% 1% rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+/* =========================================================
+   LEVEL 8 CSS POSITION (SCREEN 55)
+   ❗ KHUSUS LEVEL 8
+========================================================= */
+
+#screen55 {
+  position: relative;
+  overflow: hidden;
+}
+
+/* =========================
+   DRAG ITEM
+========================= */
+
+#screen55 .hewan {
+  position: absolute;
+  width: 10%;
+  cursor: grab;
+  z-index: 5;
+  transition: 0.2s;
+}
+
+/* batang semangka */
+#screen55 .batang-semangka {
+  top: 74%;
+  left: 77%;
+}
+
+/* buah semangka */
+#screen55 .buah-semangka {
+  top: 62%;
+  left: 76%;
+}
+
+/* bunga semangka */
+#screen55 .bunga-semangka {
+  top: 84%;
+  left: 43%;
+}
+
+/* akar semangka */
+#screen55 .akar-semangka {
+  top: 62%;
+  left: 13%;
+}
+
+/* daun semangka */
+#screen55 .daun-semangka {
+  top: 74%;
+  left: 12%;
+}
+
+/* =========================
+   DROP AREA
+========================= */
+
+#screen55 .keranjang {
+  position: absolute;
+  width: 14%;
+}
+
+/* batang target */
+#screen55 .keranjang-batang-semangka {
+  top: 53.5%;
+  right: 60%;
+}
+
+/* buah target */
+#screen55 .keranjang-buah-semangka {
+  top: 62%;
+  right: 60%;
+}
+
+/* bunga target */
+#screen55 .keranjang-bunga-semangka {
+  top: 47%;
+  right: 27.5%;
+}
+
+/* akar target */
+#screen55 .keranjang-akar-semangka {
+  top: 55%;
+  right: 27.5%;
+}
+
+/* daun target */
+#screen55 .keranjang-daun-semangka {
+  top: 46%;
+  right: 53%;
+}
+
+/* =========================
+   SCORE LEVEL 8
+========================= */
+
+#nilaiGameLevel8 {
+  position: absolute;
+
+  top: 3%;
+  right: 3%;
+
+  font-size: 2vw;
+  font-weight: bold;
+  color: white;
+
+  z-index: 20;
+}
+
+/* =========================
+   RESET BUTTON LEVEL 8
+========================= */
+
+#screen55 .btn-reset-level8 {
+  position: absolute;
+
+  bottom: 3%;
+  right: 3%;
+
+  width: 10%;
+  height: 6%;
+
+  border: none;
+  border-radius: 1vw;
+
+  background: linear-gradient(
+    135deg,
+    #ff7a18,
+    #af002d
+  );
+
+  color: white;
+  font-size: 1vw;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  z-index: 20;
+
+  transition: 0.2s;
+}
+
+#screen55 .btn-reset-level8:hover {
+  opacity: 0.9;
+}
+
+#screen55 .btn-reset-level8:active {
+  opacity: 0.7;
+}
+
+
+
+
+#screen55 .btn-reset-level8 {
+  position: absolute;
+
+  width: 14%;
+  height: 15%;
+
+  left: 86%;
+  top: 35%;
+
+  border: none;
+  border-radius: 1vw;
+
+  background: transparent;
+  color: transparent;
+
+  cursor: pointer;
+
+  z-index: 20;
+
+  transition: 0.2s ease;
+}
+
+/* hover */
+#screen55 .btn-reset-level8:hover {
+  opacity: 0.9;
+}
+
+/* klik */
+#screen55 .btn-reset-level8:active {
+  opacity: 0.7;
+}
+
+
+#nilaiGameLevel8 {
+  position: absolute;
+
+  top: 20%;
+  right: 86%;
+
+  font-size: 2vw;
+  font-weight: bold;
+
+  color: green;
+
+  z-index: 30;
+
+}
+
+
+
+
+#screen3 {
+  position: relative;
+}
+
+#screen3 .btn-screen31-from3 {
+  position: absolute;
+
+  width: 8.9%;
+  height: 15%;
+  left: 65%;
+  top: 27%;
+
+  background: transparent
+
+  border: none;
+  border-radius: 1vw;
+
+  z-index: 9999;
+
+  cursor: pointer;
+}
+
+
+
+#tampilNilai8 {
+  position: absolute;
+
+  top: 50%;
+  left: 45%;
+
+  font-size: 2vw;
+  font-weight: bold;
+  color: green;
+
+  z-index: 10;
+}
+
+
+.bottom-to-screen61 {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 87%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background: 
+
+}
+
+
+.bottom-to-screen55 {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 11%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background: 
+
+  
+}
+
+
+
+.bottom-to-screen3 {
+  position: absolute;
+
+width: 15%;
+  height: 12%;
+  left: 70%;
+  top: 20%;
+bottom: 5%;
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background: 
+  box-shadow:
+    0 0 1vw rgba(0,0,0,0.4);
+}
+
+
+
+.bottom-to-screen61-from3 {
+  position: absolute;
+
+  width: 8.9%;
+  height: 15%;
+  left: 41.5%;
+  top: 60.5%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background: transparent;
+
+}
+
+
+
+
+.bottom-to-screen1 {
+  position: absolute;
+
+  width: 15%;
+  height: 15%;
+  left: 85%;
+  top: 20%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background: 
+}
+
+
+
+.bottom-to-screen62 {
+  position: absolute;
+
+  width: 10%;
+  height: 16%;
+  top: 19%;
+ left: 25%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background: 
+}
+
+
+.bottom-to-screen63 {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 87%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background:   
+}
+
+
+
+
+.bottom-to-screen64 {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 87%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background: 
+}
+
+
+
+.bottom-to-screen65 {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 87%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background: 
+}
+
+
+
+.bottom-to-screen61-from65 {
+  position: absolute;
+
+ width: 18%;
+  height: 12%;
+  left: 81.5%;
+  top: 35.5%;
+
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background: 
+}
+
+
+
+.bottom-to-screen61-from64 {
+  position: absolute;
+
+  width: 18%;
+  height: 12%;
+  left: 81.5%;
+  top: 35.5%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background: 
+}
+
+
+
+.bottom-to-screen61-from63 {
+  position: absolute;
+
+  width: 18%;
+  height: 12%;
+  left: 81.5%;
+  top: 35.5%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background: 
+}
+
+
+
+.bottom-to-screen61-from62 {
+  position: absolute;
+
+  width: 18%;
+  height: 12%;
+  left: 81.5%;
+  top: 35.5%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background: 
+}
+
+
+
+.bottom-to-screen62-from65 {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 87%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background: 
+}
+
+
+
+.bottom-to-screen64-from65 {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 13%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  background: transparent;
+  box-shadow: none;
+
+  border-radius: 1vw;
+
+  /* tetap bisa diklik */
+}
+
+/* optional: efek klik tipis biar terasa */
+.bottom-to-screen64-from65:active {
+  opacity: 0.6;
+}
+
+
+
+.bottom-to-screen63-from64 {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 13%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  background: transparent;
+  box-shadow: none;
+
+  border-radius: 1vw;
+}
+
+/* efek klik kecil */
+.bottom-to-screen63-from64:active {
+  opacity: 0.6;
+}
+
+
+
+
+.bottom-to-screen62-from63 {
+  position: absolute;
+
+  width: 13%;
+  height: 11%;
+
+  left: 6%;
+  top: 80%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  background: transparent;
+  box-shadow: none;
+
+  border-radius: 1vw;
+}
+
+/* efek klik */
+.bottom-to-screen62-from63:active {
+  opacity: 0.6;
+}
+
+
+
+/* =========================
+   BUTTON TRANSPARENT
+   SCREEN63 → SCREEN62
+========================= */
+
+.bottom-to-screen62-from63 {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 13%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  background: transparent;
+  box-shadow: none;
+
+  border-radius: 1vw;
+}
+
+/* klik efek tipis */
+.bottom-to-screen62-from63:active {
+  opacity: 0.6;
+}
+
+
+
+/* =========================
+   BUTTON TRANSPARENT
+   SCREEN62 → SCREEN65
+========================= */
+
+.bottom-to-screen65-from62 {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 13%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  background: transparent;
+  box-shadow: none;
+
+  border-radius: 1vw;
+}
+
+/* klik efek tipis */
+.bottom-to-screen65-from62:active {
+  opacity: 0.6;
+}
+
+
+/* =========================
+   LEVEL 9 (SCREEN 61)
+========================= */
+
+#screen61 {
+  position: relative;
+}
+
+/* DRAG ITEM */
+#screen61 .hewan {
+  position: absolute;
+  width: 10%;
+  cursor: grab;
+}
+
+/* posisi awal kiri */
+#screen61 .buah-tomat { top: 75%; left: 27%; }
+#screen61 .batang-tomat { top: 67%; left: 12%; }
+#screen61 .akar-tomat { top: 75%; left: 60%; }
+#screen61 .daun-tomat { top: 67%; left: 77%; }
+
+/* DROP AREA kanan */
+#screen61 .keranjang {
+  position: absolute;
+  width: 15%;
+}
+
+#screen61 .keranjang-buah {  top: 50.5%;
+    left: 27%; }
+
+#screen61 .keranjang-batang {  top: 54%;
+  left: 53%; }
+#screen61 .keranjang-akar {  top: 62.3%;
+  left: 27%; }
+#screen61 .keranjang-daun {  top: 47%;
+  left: 55%; }
+
+
+
+/* SCORE */
+#nilaiGameLevel9 {
+  position: absolute;
+  top: 20%;
+  right: 86%;
+  font-size: 2vw;
+  font-weight: bold;
+  color: green;
+  z-index: 30;
+}
+
+/* RESET */
+.btn-reset-level9 {
+  position: absolute;
+   width: 14%;
+  height: 15%;
+  left: 86%;  
+  top: 35%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+
+#tampilNilai9 {
+  position: absolute;
+  top: 52.8%;
+  right: 45.9%;
+  font-size: 2vw;
+  font-weight: bold;
+  color: green;
+  z-index: 30;
+}
+
+
+/* =========================
+   BUTTON SCREEN61 → SCREEN66
+   (LEVEL 10 A)
+========================= */
+
+.bottom-to-screen66-from61 {
+  position: absolute;
+
+width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 87%;
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+
+  background: transparent
+
+  transition: 0.2s ease;
+}
+
+
+
+/* =========================
+   BUTTON SCREEN66 → SCREEN61
+========================= */
+
+.bottom-to-screen61-from66 {
+  position: absolute;
+
+ width: 7%;
+  height: 12%;
+  top: 52%;
+  bottom: 8%;
+  left: 11.5%;
+
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background: transparent;
+ 
+
+  transition: 0.2s ease;
+}
+
+
+/* =========================
+   BUTTON SCREEN66 → SCREEN1
+========================= */
+
+.bottom-to-screen1-from66 {
+  position: absolute;
+
+   width: 15%;
+  height: 15%;
+  left: 85%;
+  top: 20%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background: transparent;
+
+  transition: 0.2s ease;
+}
+
+
+/* =========================
+   BUTTON SCREEN66 → SCREEN3
+========================= */
+
+.bottom-to-screen3-from66 {
+  position: absolute;
+
+  width: 16%;
+  height: 13%;
+  top: 20%;
+ left: 70%;
+
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background: transparent
+
+
+  transition: 0.2s ease;
+}
+
+
+/* =========================
+   BUTTON SCREEN3 → SCREEN66
+========================= */
+
+.bottom-to-screen66-from3 {
+  position: absolute;
+
+  width: 15%;
+  height: 15%;
+
+  left: 58%;
+  top: 61%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background: transparent
+
+
+  transition: 0.2s ease;
+}
+
+
+
+/* =========================
+   OBJEK PROTULING - SCREEN 66
+========================= */
+
+#screen66 .obj-protuling {
+  position: absolute;
+
+  width: 25%;
+  height: auto;
+
+  top: 60%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  z-index: 10;
+
+  pointer-events: none; /* biar tidak ganggu tombol */
+}
+
+
+
+/* =========================
+   PROTULING
+========================= */
+
+#screen66 .obj-protuling {
+  position: absolute;
+
+  width: 25%;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  z-index: 5;
+
+  pointer-events: none;
+}
+
+/* =========================
+   KUMAN OVERLAY (DI ATAS TUBUH)
+========================= */
+
+#screen66 .kuman {
+  position: absolute;
+
+  width: 5%;
+
+  z-index: 10;
+
+  pointer-events: none;
+}
+
+/* =========================
+   POSISI KUMAN DI TUBUH
+   (silakan kamu adjust bebas)
+========================= */
+
+#screen66 .k1 { top: 30%; left: 45%; }
+#screen66 .k2 { top: 40%; left: 42%; }
+#screen66 .k3 { top: 45%; left: 50%; }
+#screen66 .k4 { top: 50%; left: 47%; }
+#screen66 .k5 { top: 55%; left: 52%; }
+
+#screen66 .k6 { top: 35%; left: 55%; }
+#screen66 .k7 { top: 60%; left: 45%; }
+#screen66 .k8 { top: 38%; left: 48%; }
+#screen66 .k9 { top: 48%; left: 44%; }
+#screen66 .k10 { top: 52%; left: 49%; }
+#screen66 .k11 { top: 42%; left: 46%; }
+
+
+
+/* =========================
+   SCREEN 66 - SABUN GAME
+========================= */
+
+#screen66 {
+  position: relative;
+  overflow: hidden;
+}
+
+/* PROTULING */
+#screen66 .obj-protuling {
+  position: absolute;
+  width: 25%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* SABUN (DRAG) */
+#screen66 .sabun {
+  position: absolute;
+
+  width: 10%;
+
+  top: 80%;
+  left: 10%;
+
+  cursor: grab;
+
+  z-index: 20;
+}
+
+/* KUMAN */
+#screen66 .kuman {
+  position: absolute;
+  width: 5%;
+  z-index: 5;
+  transition: opacity 0.2s ease;
+}
+
+/* SCORE */
+#scoreLevel66 {
+  position: absolute;
+
+  top: 20%;     /* ubah ini untuk naik/turun */
+  right: 85.1%;   /* ubah ini untuk kiri/kanan */
+
+  font-size: 20px;
+  color: rgb(30, 117, 37);
+  font-weight: bold;
+
+  z-index: 9999;
+}
+
+
+
+/* =========================
+   BUTTON RESET SCREEN 66
+========================= */
+
+#screen66 .btn-reset-sabun-66 {
+  position: absolute;
+
+  width: 14%;
+  height: 15%;
+
+  left: 86%;  
+  top: 35%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  background: transparent;
+
+  border-radius: 1vw;
+
+  
+}
+
+
+#tampilNilai66 {
+  position: absolute;
+
+  top: 56%;
+  left: 43%;
+
+  font-size: 2vw;
+  font-weight: bold;
+  color: green;
+
+  z-index: 10;
+}
+
+
+
+/* =========================
+   BUTTON SCREEN66 → SCREEN67
+   (LEVEL 10B)
+========================= */
+
+.bottom-to-screen67-from66 {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 87%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background: transparent;
+
+  transition: 0.2s ease;
+}
+
+
+/* =========================
+   BUTTON SCREEN67 → SCREEN66
+========================= */
+
+.bottom-to-screen66-from67 {
+  position: absolute;
+
+ width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 13%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background: transparent;
+
+
+
+  transition: 0.2s ease;
+}
+
+
+
+/* =========================
+   BUTTON SCREEN67 → SCREEN1
+========================= */
+
+.bottom-to-screen1-from67 {
+  position: absolute;
+
+ width: 15%;
+  height: 15%;
+  left: 85%;
+  top: 20%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background: transparent
+
+  
+}
+
+/* =========================
+   BUTTON SCREEN67 → SCREEN3
+========================= */
+
+.bottom-to-screen3-from67 {
+  position: absolute;
+
+   width: 16%;
+  height: 13%;
+  top: 20%;
+ left: 70%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background: transparent
+
+  transition: 0.2s ease;
+}
+
+
+/* =========================
+   BUTTON SCREEN66 → SCREEN68
+========================= */
+
+.bottom-to-screen68-from66 {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+  top: 17%;
+  left: 25%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background: transparent
+  
+
+  transition: 0.2s ease;
+}
+
+
+
+
+/* =========================
+   BUTTON SCREEN68 → SCREEN66
+========================= */
+
+.bottom-to-screen66-from68 {
+  position: absolute;
+
+  width: 18%;
+  height: 12%;
+  left: 81.5%;
+  top: 35.5%;
+
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background: transparent
+
+}
+
+
+/* =========================
+   DRAG OBJECT SCREEN 67
+========================= */
+
+#screen67 .hewan {
+  position: absolute;
+  width: 19%;
+  cursor: grab;
+  z-index: 10;
+}
+
+/* posisi awal drag item */
+#screen67 .nama1 { top: 75%; left: 10%; }
+#screen67 .nama2 { top: 80%; left: 38%; }
+#screen67 .nama3 { top: 75%; left: 68%; }
+
+/* DROP AREA */
+#screen67 .keranjang {
+  position: absolute;
+  width: 12%;
+  height: 12%;
+  border: 2px dashed #fff;
+  border-radius: 1vw;
+}
+
+/* posisi drop */
+#screen67 .k-nama1 { top: 50%; left: 59%; }
+#screen67 .k-nama2 { top: 50%; left: 26%; }
+#screen67 .k-nama3 { top: 50%; left: 43%; }
+
+
+/* =========================
+   RESET BUTTON SCREEN 67
+========================= */
+
+#screen67 .bottom-reset-screen67 {
+  position: absolute;
+
+  width: 14%;
+  height: 15%;
+
+  left: 86%;  
+  top: 35%;
+
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background: transparent;
+
+  box-shadow: 0 0 1vw rgba(0,0,0,0.4);
+
+  transition: 0.2s ease;
+}
+
+
+
+/* =========================
+   SCORE SCREEN 67
+========================= */
+
+#screen67 #nilaiGameLevel67 {
+  position: absolute;
+
+  top: 20%;     /* ubah ini untuk naik/turun */
+  right: 85.1%;   /* ubah ini untuk kiri/kanan */
+
+  font-size: 20px;
+  color: rgb(30, 117, 37);
+  font-weight: bold;
+
+  z-index: 9999;
+}
+
+.level-title {
+  position: absolute;
+
+  top: 59%;
+  left: 43%;
+
+  font-size: 2vw;
+  font-weight: bold;
+  color: green;
+
+  z-index: 10;
+}
+
+.btn-level67 {
+  position: absolute;
+
+  width: 14%;
+  height: 16%;
+  top: 78%;
+  left: 57%;
+  z-index: 99999;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+
+  border-radius: 1vw;
+
+  background: transparent
+
+  
+}
+
+
+/* =========================
+   SCREEN 67 -> SCREEN 68
+========================= */
+
+#screen67 .to-screen68 {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+
+  left: 87%;
+  top: 53%;
+
+  transform: translate(-50%, -50%);
+
+  cursor: pointer;
+
+  background: transparent;
+  border: none;
+  border-radius: 10px;
+
+  z-index: 999;
+}
+
+
+/* =========================
+   SCREEN 68 -> SCREEN 67
+========================= */
+#screen67 .to-screen69 {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+  left: 25%;
+  top: 18%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  background: transparent;
+  z-index: 999;
+}
+
+/* =========================
+   SCREEN 69 -> SCREEN 67
+========================= */
+
+#screen69 .to-screen67-from69 {
+  position: absolute;
+
+  width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36%; 
+  bottom: 6%;
+
+  transform: translate(-50%, -50%);
+
+  cursor: pointer;
+
+  background: transparent; */
+ 
+
+  border-radius: 10px;
+
+  z-index: 999;
+}
+
+
+/* =========================
+   SCREEN 69 -> SCREEN 70
+========================= */
+
+#screen69 .to-screen70-from69 {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+
+  left: 87%;
+  top: 53%;
+
+  transform: translate(-50%, -50%);
+
+  cursor: pointer;
+
+  background: transparent
+
+
+  border-radius: 10px;
+
+  z-index: 999;
+}
+
+/* =========================
+   SCREEN 70 -> SCREEN 67
+========================= */
+
+#screen70 .to-screen67-from70 {
+  position: absolute;
+
+  width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36%;
+
+  transform: translate(-50%, -50%);
+
+  cursor: pointer;
+
+  background: transparent; */
+
+
+  border-radius: 10px;
+
+  z-index: 999;
+}
+
+
+/* =========================
+   SCREEN 70 -> SCREEN 69
+========================= */
+
+#screen70 .to-screen69-from70 {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 13%;
+
+  transform: translate(-50%, -50%);
+
+  cursor: pointer;
+
+  background: transparent; 
+ 
+
+  border-radius: 10px;
+
+  z-index: 999;
+}
+
+
+/* =========================
+   SCREEN 70 -> SCREEN 71
+========================= */
+
+#screen70 .to-screen71-from70 {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 87%;
+
+  transform: translate(-50%, -50%);
+
+  cursor: pointer;
+
+  background: transparent; */
+
+  border-radius: 10px;
+
+  z-index: 999;
+}
+
+
+/* =========================
+   SCREEN 71 -> SCREEN 70
+========================= */
+
+#screen71 .to-screen70-from71 {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+
+  left: 13%;
+  top: 53%;
+
+  transform: translate(-50%, -50%);
+
+  cursor: pointer;
+
+  background: transparent; 
+
+  border-radius: 10px;
+
+  z-index: 999;
+}
+
+/* =========================
+   SCREEN 71 -> SCREEN 67
+========================= */
+
+#screen71 .to-screen67-from71 {
+  position: absolute;
+
+  width: 20%;
+  height: 12%;
+  left: 81%;
+  top: 36%; 
+  bottom: 6%;
+
+  transform: translate(-50%, -50%);
+
+  cursor: pointer;
+
+  background: transparent;
+ 
+
+  border-radius: 10px;
+
+  z-index: 999;
+}
+
+
+/* =========================
+   SCREEN 71 -> SCREEN 69
+========================= */
+
+#screen71 .to-screen69-from71 {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  background: transparent; */
+  border-radius: 10px;
+  z-index: 999;
+}
+
+/* =========================
+   SCREEN 69 -> SCREEN 71
+========================= */
+
+#screen69 .to-screen71-from69 {
+  position: absolute;
+
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  bottom: 7%;
+ left: 13%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  background: transparent; 
+  border-radius: 10px;
+
+  z-index: 999;
+}
+
+
+
+/* =========================
+   SCREEN 1 -> SCREEN 72
+========================= */
+
+#screen1 .to-screen72 {
+  position: absolute;
+
+  width: 27%;
+  height: 15%;
+
+  left: 65%;
+  top: 57%;
+
+  transform: translate(-50%, -50%);
+
+  cursor: pointer;
+
+  background: transparent;
+
+  border-radius: 10px;
+
+  z-index: 999;
+}
+
+/* =========================
+   SCREEN 72 -> SCREEN 1
+========================= */
+
+#screen72 .to-screen1-from72 {
+  position: absolute;
+  width: 20%;
+  height: 11%;
+  left: 26%;
+  top: 88%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  background: transparent
+  border-radius: 10px;
+  z-index: 999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
