@@ -1589,6 +1589,1573 @@ function resetScreen67() {
 
 
 
+/* =========================
+   LEVEL SCREEN 74
+========================= */
+
+(function () {
+
+  let active = null;
+  let offsetX = 0;
+  let offsetY = 0;
+
+  let cleaned = 0;
+
+  const sampah = document.querySelectorAll('#screen74 .sampah');
+
+  const tong = document.getElementById('tong74');
+
+  const scoreEl = document.getElementById('scoreLevel74');
 
 
 
+  // =========================
+  // DRAG START
+  // =========================
+
+  sampah.forEach((item) => {
+
+    item.addEventListener('mousedown', startDrag);
+    item.addEventListener('touchstart', startDrag);
+
+  });
+
+
+  function startDrag(e) {
+
+    active = e.target;
+
+    const rect = active.getBoundingClientRect();
+
+    if (e.touches) {
+
+      offsetX = e.touches[0].clientX - rect.left;
+      offsetY = e.touches[0].clientY - rect.top;
+
+    } else {
+
+      offsetX = e.clientX - rect.left;
+      offsetY = e.clientY - rect.top;
+
+    }
+
+    active.style.zIndex = 9999;
+  }
+
+
+  // =========================
+  // DRAG MOVE
+  // =========================
+
+  document.addEventListener('mousemove', drag);
+  document.addEventListener('touchmove', drag);
+
+
+  function drag(e) {
+
+    if (!active) return;
+
+    e.preventDefault();
+
+    let clientX;
+    let clientY;
+
+    if (e.touches) {
+
+      clientX = e.touches[0].clientX;
+      clientY = e.touches[0].clientY;
+
+    } else {
+
+      clientX = e.clientX;
+      clientY = e.clientY;
+
+    }
+
+    const screen = document.getElementById('screen74');
+
+    const rect = screen.getBoundingClientRect();
+
+    active.style.left =
+      ((clientX - rect.left - offsetX) / rect.width) * 100 + '%';
+
+    active.style.top =
+      ((clientY - rect.top - offsetY) / rect.height) * 100 + '%';
+  }
+
+
+  // =========================
+  // DROP
+  // =========================
+
+  document.addEventListener('mouseup', drop);
+  document.addEventListener('touchend', drop);
+
+
+  function drop() {
+
+    if (!active) return;
+
+    const tongRect = tong.getBoundingClientRect();
+
+    const itemRect = active.getBoundingClientRect();
+
+    const masuk =
+      itemRect.left < tongRect.right &&
+      itemRect.right > tongRect.left &&
+      itemRect.top < tongRect.bottom &&
+      itemRect.bottom > tongRect.top;
+
+    if (masuk) {
+
+      active.style.display = 'none';
+
+      cleaned++;
+
+      let score = Math.round((cleaned / 10) * 100);
+
+      scoreEl.innerText = score;
+const scoreProtulingLevel1 =
+  document.getElementById('scoreProtulingLevel1');
+
+if (scoreProtulingLevel1) {
+
+  scoreProtulingLevel1.innerText = score;
+}
+    }
+
+    active = null;
+  }
+
+})();
+
+
+/* =========================
+   RESET LEVEL 74
+========================= */
+
+
+const posisiAwal74 = [
+
+  { left: '28%', top: '47%' },
+  { left: '38%', top: '46%' },
+  { left: '49%', top: '46%' },
+  { left: '65%', top: '48%' },
+  { left: '56%', top: '57%' },
+
+  { left: '34%', top: '57%' },
+  { left: '31%', top: '65%' },
+  { left: '44%', top: '67%' },
+  { left: '58%', top: '67%' },
+  { left: '45.3%', top: '49.3%' }
+
+];
+
+function resetLevel74() {
+  
+  const scoreProtulingLevel1 =
+  document.getElementById('scoreProtulingLevel1');
+
+if(scoreProtulingLevel1){
+
+  scoreProtulingLevel1.innerText = 0;
+}
+
+  const items =
+    document.querySelectorAll('#screen74 .sampah');
+
+  items.forEach((item, index) => {
+
+    item.style.display = 'block';
+
+    item.style.left =
+      posisiAwal74[index].left;
+
+    item.style.top =
+      posisiAwal74[index].top;
+  });
+
+  // reset score
+  cleaned = 0;
+
+  const scoreEl =
+    document.getElementById('scoreLevel74');
+
+  if (scoreEl) {
+    scoreEl.innerText = 0;
+  }
+}
+
+
+/* =========================
+   TOMBOL RESET LEVEL 74
+========================= */
+
+const resetBtn74 =
+  document.querySelector(
+    '#screen74 .reset-level74'
+  );
+
+if (resetBtn74) {
+
+  resetBtn74.addEventListener(
+    'click',
+    resetLevel74
+  );
+
+}
+
+ 
+/* =========================
+   LEVEL 76
+========================= */
+
+(function(){
+
+  const daun =
+    document.getElementById("daun76");
+
+  const tong =
+    document.getElementById("tong76");
+
+  const scoreEl =
+    document.getElementById("scoreLevel76");
+
+  let isDragging = false;
+
+  let offsetX = 0;
+  let offsetY = 0;
+
+
+  /* =========================
+     START DRAG
+  ========================= */
+
+  daun.addEventListener("mousedown", startDrag);
+  daun.addEventListener("touchstart", startDrag);
+
+
+  function startDrag(e){
+
+    isDragging = true;
+
+    const rect =
+      daun.getBoundingClientRect();
+
+    if(e.touches){
+
+      offsetX =
+        e.touches[0].clientX - rect.left;
+
+      offsetY =
+        e.touches[0].clientY - rect.top;
+
+    }else{
+
+      offsetX =
+        e.clientX - rect.left;
+
+      offsetY =
+        e.clientY - rect.top;
+    }
+  }
+
+
+  /* =========================
+     MOVE
+  ========================= */
+
+  document.addEventListener("mousemove", drag);
+  document.addEventListener("touchmove", drag, {passive:false});
+
+
+  function drag(e){
+
+    if(!isDragging) return;
+
+    e.preventDefault();
+
+    let clientX;
+    let clientY;
+
+    if(e.touches){
+
+      clientX = e.touches[0].clientX;
+      clientY = e.touches[0].clientY;
+
+    }else{
+
+      clientX = e.clientX;
+      clientY = e.clientY;
+    }
+
+    const screen =
+      document.getElementById("screen76");
+
+    const rect =
+      screen.getBoundingClientRect();
+
+    daun.style.left =
+      ((clientX - rect.left - offsetX)
+      / rect.width) * 100 + "%";
+
+    daun.style.top =
+      ((clientY - rect.top - offsetY)
+      / rect.height) * 100 + "%";
+  }
+
+
+  /* =========================
+     DROP
+  ========================= */
+
+  document.addEventListener("mouseup", drop);
+  document.addEventListener("touchend", drop);
+
+
+  function drop(){
+
+    if(!isDragging) return;
+
+    isDragging = false;
+
+    const tongRect =
+      tong.getBoundingClientRect();
+
+    const daunRect =
+      daun.getBoundingClientRect();
+
+    const masuk =
+      daunRect.left < tongRect.right &&
+      daunRect.right > tongRect.left &&
+      daunRect.top < tongRect.bottom &&
+      daunRect.bottom > tongRect.top;
+
+    if(masuk){
+
+      daun.style.display = "none";
+
+      scoreEl.innerText = "100";
+
+      /* SCORE SCREEN 6 */
+
+      const scoreProtulingLevel2 =
+  document.getElementById("scoreProtulingLevel2");
+
+if(scoreProtulingLevel2){
+
+  scoreProtulingLevel2.innerText = "100";
+}
+    }
+  }
+
+
+  /* =========================
+     RESET
+  ========================= */
+
+  document
+    .querySelector("#screen76 .reset-level76")
+    .addEventListener("click", function(){
+
+      daun.style.display = "block";
+
+      daun.style.width = "50%";
+
+daun.style.left = "25%";
+daun.style.top = "40%";
+
+      scoreEl.innerText = "0";
+
+      const scoreProtulingLevel2 =
+  document.getElementById("scoreProtulingLevel2");
+
+if(scoreProtulingLevel2){
+
+  scoreProtulingLevel2.innerText = "0";
+}
+    });
+
+})();
+      
+
+
+
+
+/* =========================
+   LEVEL 78
+========================= */
+
+(function(){
+
+  let active = null;
+
+  let offsetX = 0;
+  let offsetY = 0;
+
+  let cleaned = 0;
+
+  const items =
+    document.querySelectorAll("#screen78 .item78");
+
+  const scoreEl =
+    document.getElementById("scoreLevel78");
+
+
+  const pasangan = {
+
+    bawangA:
+      document.getElementById("keranjangBawangA"),
+
+    jerukB:
+      document.getElementById("keranjangJerukB"),
+
+    tomatB:
+      document.getElementById("keranjangTomatB"),
+
+    jerukC:
+      document.getElementById("keranjangJerukC")
+  };
+
+
+  /* =========================
+     START DRAG
+  ========================= */
+
+  items.forEach((item)=>{
+
+    item.addEventListener("mousedown", startDrag);
+    item.addEventListener("touchstart", startDrag);
+
+  });
+
+
+  function startDrag(e){
+
+    active = this;
+
+    const rect =
+      active.getBoundingClientRect();
+
+    if(e.touches){
+
+      offsetX =
+        e.touches[0].clientX - rect.left;
+
+      offsetY =
+        e.touches[0].clientY - rect.top;
+
+    }else{
+
+      offsetX =
+        e.clientX - rect.left;
+
+      offsetY =
+        e.clientY - rect.top;
+    }
+  }
+
+
+  /* =========================
+     MOVE
+  ========================= */
+
+  document.addEventListener("mousemove", drag78);
+  document.addEventListener("touchmove", drag78, {passive:false});
+
+
+  function drag78(e){
+
+    if(!active) return;
+
+    e.preventDefault();
+
+    let clientX;
+    let clientY;
+
+    if(e.touches){
+
+      clientX = e.touches[0].clientX;
+      clientY = e.touches[0].clientY;
+
+    }else{
+
+      clientX = e.clientX;
+      clientY = e.clientY;
+    }
+
+    const screen =
+      document.getElementById("screen78");
+
+    const rect =
+      screen.getBoundingClientRect();
+
+    active.style.left =
+      ((clientX - rect.left - offsetX)
+      / rect.width) * 100 + "%";
+
+    active.style.top =
+      ((clientY - rect.top - offsetY)
+      / rect.height) * 100 + "%";
+  }
+
+
+  /* =========================
+     DROP
+  ========================= */
+
+  document.addEventListener("mouseup", drop78);
+  document.addEventListener("touchend", drop78);
+
+
+  function drop78(){
+
+    if(!active) return;
+
+    let target = null;
+
+    if(active.classList.contains("bawangA")){
+
+      target = pasangan.bawangA;
+    }
+
+    if(active.classList.contains("jerukB")){
+
+      target = pasangan.jerukB;
+    }
+
+    if(active.classList.contains("tomatB")){
+
+      target = pasangan.tomatB;
+    }
+
+    if(active.classList.contains("jerukC")){
+
+      target = pasangan.jerukC;
+    }
+
+    const itemRect =
+      active.getBoundingClientRect();
+
+    const targetRect =
+      target.getBoundingClientRect();
+
+
+let dropLeft =
+  targetRect.left + (targetRect.width * 0.25);
+
+let dropRight =
+  targetRect.left + (targetRect.width * 0.60);
+
+let dropTop =
+  targetRect.top + (targetRect.height * 0.25);
+
+let dropBottom =
+  targetRect.top + (targetRect.height * 0.60);
+    
+  const centerX =
+  itemRect.left + itemRect.width / 2;
+
+const centerY =
+  itemRect.top + itemRect.height / 2;
+
+const masuk =
+  centerX > dropLeft &&
+  centerX < dropRight &&
+  centerY > dropTop &&
+  centerY < dropBottom;
+    
+    if(masuk){
+
+      active.style.display = "none";
+
+      cleaned++;
+
+      let score =
+        Math.round((cleaned / 4) * 100);
+
+      scoreEl.innerText = score;
+
+
+      /* SCORE SCREEN 6 */
+
+      const scoreLevel78Screen6 =
+        document.getElementById("scoreLevel78Screen6");
+
+      if(scoreLevel78Screen6){
+
+        scoreLevel78Screen6.innerText = score;
+         
+      }
+    }
+
+    active = null;
+  }
+
+
+  /* =========================
+     RESET
+  ========================= */
+
+  document
+    .querySelector("#screen78 .reset-level78")
+    .addEventListener("click", reset78);
+
+
+  function reset78(){
+
+    cleaned = 0;
+
+    scoreEl.innerText = 0;
+
+    const scoreLevel78Screen6 =
+      document.getElementById("scoreLevel78Screen6");
+
+    if(scoreLevel78Screen6){
+
+      scoreLevel78Screen6.innerText = 0;
+    }
+
+    items.forEach((item)=>{
+
+      item.style.display = "block";
+    });
+
+    document.querySelector(".bawangA").style.left = "28%";
+document.querySelector(".bawangA").style.top = "38%";
+
+document.querySelector(".jerukB").style.left = "53.4%";
+document.querySelector(".jerukB").style.top = "46%";
+
+document.querySelector(".tomatB").style.left = "26%";
+document.querySelector(".tomatB").style.top = "59.9%";
+
+document.querySelector(".jerukC").style.left = "57%";
+document.querySelector(".jerukC").style.top = "60.1%";
+  }
+
+})();
+
+
+/* =========================
+   LEVEL 80
+========================= */
+
+(function(){
+
+  let active = null;
+
+  let offsetX = 0;
+  let offsetY = 0;
+
+  let cleaned = 0;
+
+  let slotMerah = 0;
+  let slotBiruTua = 0;
+  let slotBiruMuda = 0;
+
+  const buku =
+    document.querySelectorAll("#screen80 .buku80");
+
+  const scoreEl =
+    document.getElementById("scoreLevel80");
+
+
+  const rakMerah =
+    document.getElementById("rakMerah80");
+
+  const rakBiruTua =
+    document.getElementById("rakBiruTua80");
+
+  const rakBiruMuda =
+    document.getElementById("rakBiruMuda80");
+
+
+  /* =========================
+     START DRAG
+  ========================= */
+
+  buku.forEach((item)=>{
+
+    item.addEventListener("mousedown", startDrag);
+    item.addEventListener("touchstart", startDrag);
+
+  });
+
+
+  function startDrag(e){
+
+    active = this;
+
+    const rect =
+      active.getBoundingClientRect();
+
+    if(e.touches){
+
+      offsetX =
+        e.touches[0].clientX - rect.left;
+
+      offsetY =
+        e.touches[0].clientY - rect.top;
+
+    }else{
+
+      offsetX =
+        e.clientX - rect.left;
+
+      offsetY =
+        e.clientY - rect.top;
+    }
+  }
+
+
+  /* =========================
+     MOVE
+  ========================= */
+
+  document.addEventListener("mousemove", drag80);
+  document.addEventListener("touchmove", drag80,{passive:false});
+
+
+  function drag80(e){
+
+    if(!active) return;
+
+    e.preventDefault();
+
+    let clientX;
+    let clientY;
+
+    if(e.touches){
+
+      clientX = e.touches[0].clientX;
+      clientY = e.touches[0].clientY;
+
+    }else{
+
+      clientX = e.clientX;
+      clientY = e.clientY;
+    }
+
+    const screen =
+      document.getElementById("screen80");
+
+    const rect =
+      screen.getBoundingClientRect();
+
+    /* =========================
+   SMOOTH DRAG
+========================= */
+
+requestAnimationFrame(()=>{
+
+  active.style.left =
+    ((clientX - rect.left - offsetX)
+    / rect.width) * 100 + "%";
+
+  active.style.top =
+    ((clientY - rect.top - offsetY)
+    / rect.height) * 100 + "%";
+
+});
+  }
+
+
+  /* =========================
+     DROP
+  ========================= */
+
+  document.addEventListener("mouseup", drop80);
+  document.addEventListener("touchend", drop80);
+
+
+  function drop80(){
+
+    if(!active) return;
+
+    const itemRect =
+      active.getBoundingClientRect();
+
+    const centerX =
+      itemRect.left + itemRect.width/2;
+
+    const centerY =
+      itemRect.top + itemRect.height/2;
+
+    let target = null;
+
+
+    if(active.classList.contains("merah")){
+
+      target = rakMerah;
+    }
+
+    if(active.classList.contains("biruTua")){
+
+      target = rakBiruTua;
+    }
+
+    if(active.classList.contains("biruMuda")){
+
+      target = rakBiruMuda;
+    }
+
+
+    const rakRect =
+      target.getBoundingClientRect();
+
+    const masuk =
+      centerX > rakRect.left &&
+      centerX < rakRect.right &&
+      centerY > rakRect.top &&
+      centerY < rakRect.bottom;
+
+
+    if(masuk){
+
+      active.style.transform =
+        "rotate(90deg)";
+
+      active.style.width = "4%";
+
+
+      /* =========================
+   SUSUN RAK MERAH
+========================= */
+
+if(active.classList.contains("merah")){
+
+  active.style.left =
+    (42 + (slotMerah * 1.8)) + "%";
+
+  active.style.top = "49%";
+
+  active.style.transform =
+    "rotate(0deg)";
+
+  active.style.width = "3.2%";
+
+  slotMerah++;
+}
+
+
+/* =========================
+   SUSUN RAK BIRU TUA
+========================= */
+
+if(active.classList.contains("biruTua")){
+
+  active.style.left =
+    (42 + (slotBiruTua * 1.8)) + "%";
+
+  active.style.top = "59%";
+
+  active.style.transform =
+    "rotate(0deg)";
+
+  active.style.width = "3.2%";
+
+  slotBiruTua++;
+}
+
+
+/* =========================
+   SUSUN RAK BIRU MUDA
+========================= */
+
+if(active.classList.contains("biruMuda")){
+
+  active.style.left =
+    (42 + (slotBiruMuda * 1.8)) + "%";
+
+  active.style.top = "67%";
+
+  active.style.transform =
+    "rotate(0deg)";
+
+  active.style.width = "3.2%";
+
+  slotBiruMuda++;
+}
+
+
+      cleaned++;
+
+      let score =
+        Math.round((cleaned / 18) * 100);
+
+      scoreEl.innerText = score;
+
+
+      /* SCORE SCREEN 6 */
+
+      const scoreLevel80Screen6 =
+        document.getElementById("scoreLevel80Screen6");
+
+      if(scoreLevel80Screen6){
+
+        scoreLevel80Screen6.innerText = score;
+      }
+    }
+
+    active = null;
+  }
+
+
+ /* =========================
+   RESET LEVEL 80
+========================= */
+
+document
+  .querySelector("#screen80 .reset-level80")
+  .addEventListener("click", reset80);
+
+
+function reset80(){
+
+  cleaned = 0;
+
+  scoreEl.innerText = 0;
+
+
+  /* SCORE SCREEN 6 */
+
+  const scoreLevel80Screen6 =
+    document.getElementById("scoreLevel80Screen6");
+
+  if(scoreLevel80Screen6){
+
+    scoreLevel80Screen6.innerText = 0;
+  }
+
+
+  /* RESET SLOT */
+
+  slotMerah = 0;
+  slotBiruTua = 0;
+  slotBiruMuda = 0;
+
+
+  /* RESET SEMUA BUKU */
+
+  buku.forEach((item)=>{
+
+    item.style.transform =
+      "rotate(-90deg)";
+
+    item.style.width = "8%";
+  });
+
+
+  /* =========================
+     WAJAH SMILE
+  ========================= */
+
+
+  /* MATA KIRI */
+
+  document.querySelector(".merah1").style.left = "28%";
+  document.querySelector(".merah1").style.top = "28%";
+
+  document.querySelector(".merah2").style.left = "36%";
+  document.querySelector(".merah2").style.top = "28%";
+
+
+  /* MATA KANAN */
+
+  document.querySelector(".biruTua1").style.left = "58%";
+  document.querySelector(".biruTua1").style.top = "28%";
+
+  document.querySelector(".biruTua2").style.left = "66%";
+  document.querySelector(".biruTua2").style.top = "28%";
+
+
+  /* HIDUNG */
+
+  document.querySelector(".biruMuda1").style.left = "48%";
+  document.querySelector(".biruMuda1").style.top = "45%";
+
+  document.querySelector(".biruMuda2").style.left = "52%";
+  document.querySelector(".biruMuda2").style.top = "45%";
+
+
+  /* MULUT */
+
+  document.querySelector(".merah3").style.left = "28%";
+  document.querySelector(".merah3").style.top = "64%";
+
+  document.querySelector(".merah4").style.left = "36%";
+  document.querySelector(".merah4").style.top = "72%";
+
+  document.querySelector(".merah5").style.left = "46%";
+  document.querySelector(".merah5").style.top = "76%";
+
+  document.querySelector(".merah6").style.left = "56%";
+  document.querySelector(".merah6").style.top = "76%";
+
+  document.querySelector(".biruTua3").style.left = "66%";
+  document.querySelector(".biruTua3").style.top = "72%";
+
+  document.querySelector(".biruTua4").style.left = "74%";
+  document.querySelector(".biruTua4").style.top = "64%";
+
+
+  /* PIPI */
+
+  document.querySelector(".biruMuda3").style.left = "20%";
+  document.querySelector(".biruMuda3").style.top = "52%";
+
+  document.querySelector(".biruMuda4").style.left = "78%";
+  document.querySelector(".biruMuda4").style.top = "52%";
+
+
+  /* BAWAH */
+
+  document.querySelector(".biruTua5").style.left = "34%";
+  document.querySelector(".biruTua5").style.top = "88%";
+
+  document.querySelector(".biruTua6").style.left = "66%";
+  document.querySelector(".biruTua6").style.top = "88%";
+
+  document.querySelector(".biruMuda5").style.left = "44%";
+  document.querySelector(".biruMuda5").style.top = "90%";
+
+  document.querySelector(".biruMuda6").style.left = "56%";
+  document.querySelector(".biruMuda6").style.top = "90%";
+}
+  
+/* =========================
+   LEVEL 82
+========================= */
+
+(function(){
+
+  let active = null;
+
+  let offsetX = 0;
+  let offsetY = 0;
+
+  let cleaned = 0;
+
+  const scoreEl =
+    document.getElementById("scoreLevel82");
+
+
+  const vas =
+    document.getElementById("vas82");
+
+  const kursi =
+    document.getElementById("kursi82");
+
+
+  const shadowVas =
+    document.getElementById("shadowVas82");
+
+  const shadowKursi =
+    document.getElementById("shadowKursi82");
+
+
+  const items = [vas, kursi];
+
+
+  /* =========================
+     START DRAG
+  ========================= */
+
+  items.forEach((item)=>{
+
+    item.addEventListener("mousedown", startDrag);
+    item.addEventListener("touchstart", startDrag);
+
+  });
+
+
+  function startDrag(e){
+
+    active = this;
+
+    const rect =
+      active.getBoundingClientRect();
+
+    if(e.touches){
+
+      offsetX =
+        e.touches[0].clientX - rect.left;
+
+      offsetY =
+        e.touches[0].clientY - rect.top;
+
+    }else{
+
+      offsetX =
+        e.clientX - rect.left;
+
+      offsetY =
+        e.clientY - rect.top;
+    }
+  }
+
+
+  /* =========================
+     MOVE
+  ========================= */
+
+  document.addEventListener("mousemove", drag82);
+  document.addEventListener("touchmove", drag82,{passive:false});
+
+
+  function drag82(e){
+
+    if(!active) return;
+
+    e.preventDefault();
+
+    let clientX;
+    let clientY;
+
+    if(e.touches){
+
+      clientX = e.touches[0].clientX;
+      clientY = e.touches[0].clientY;
+
+    }else{
+
+      clientX = e.clientX;
+      clientY = e.clientY;
+    }
+
+    const screen =
+      document.getElementById("screen82");
+
+    const rect =
+      screen.getBoundingClientRect();
+
+    active.style.left =
+      ((clientX - rect.left - offsetX)
+      / rect.width) * 100 + "%";
+
+    active.style.top =
+      ((clientY - rect.top - offsetY)
+      / rect.height) * 100 + "%";
+  }
+
+
+  /* =========================
+     DROP
+  ========================= */
+
+  document.addEventListener("mouseup", drop82);
+  document.addEventListener("touchend", drop82);
+
+
+  function drop82(){
+
+    if(!active) return;
+
+    const itemRect =
+      active.getBoundingClientRect();
+
+    const centerX =
+      itemRect.left + itemRect.width/2;
+
+    const centerY =
+      itemRect.top + itemRect.height/2;
+
+    let target = null;
+
+
+    if(active.id === "vas82"){
+
+      target = shadowVas;
+    }
+
+    if(active.id === "kursi82"){
+
+      target = shadowKursi;
+    }
+
+
+    const targetRect =
+      target.getBoundingClientRect();
+
+
+    let dropLeft =
+      targetRect.left + (targetRect.width * 0.20);
+
+    let dropRight =
+      targetRect.left + (targetRect.width * 0.80);
+
+    let dropTop =
+      targetRect.top + (targetRect.height * 0.20);
+
+    let dropBottom =
+      targetRect.top + (targetRect.height * 0.80);
+
+
+    const masuk =
+      centerX > dropLeft &&
+      centerX < dropRight &&
+      centerY > dropTop &&
+      centerY < dropBottom;
+
+
+    /* =========================
+       JIKA MASUK
+    ========================= */
+
+    if(masuk){
+
+      /* VAS */
+
+      if(active.id === "vas82"){
+
+        active.style.left = "43%";
+        active.style.top = "42%";
+
+        active.style.transform =
+          "rotate(445deg)";
+
+        active.style.width = "10%";
+      }
+
+
+      /* KURSI */
+
+      if(active.id === "kursi82"){
+
+        active.style.left = "48%";
+        active.style.top = "55%";
+
+        active.style.transform =
+          "rotate(240deg)";
+
+        active.style.width = "15%";
+      }
+
+
+      cleaned++;
+
+      let score =
+        Math.round((cleaned / 2) * 100);
+
+      scoreEl.innerText = score;
+
+
+      /* SCORE SCREEN 6 */
+
+      const scoreLevel82Screen6 =
+        document.getElementById("scoreLevel82Screen6");
+
+      if(scoreLevel82Screen6){
+
+        scoreLevel82Screen6.innerText = score;
+      }
+    }
+
+
+    /* =========================
+       JIKA SALAH
+    ========================= */
+
+    if(!masuk){
+
+      if(active.id === "vas82"){
+
+        active.style.left = "18%";
+        active.style.top = "78%";
+
+        active.style.transform =
+          "rotate(-90deg)";
+
+        active.style.width = "16%";
+      }
+
+      if(active.id === "kursi82"){
+
+        active.style.left = "60%";
+        active.style.top = "78%";
+
+        active.style.transform =
+          "rotate(-90deg)";
+
+        active.style.width = "18%";
+      }
+    }
+
+    active = null;
+  }
+
+
+  /* =========================
+     RESET
+  ========================= */
+
+  document
+    .querySelector("#screen82 .reset-level82")
+    .addEventListener("click", reset82);
+
+
+  function reset82(){
+
+    cleaned = 0;
+
+    scoreEl.innerText = 0;
+
+
+    /* SCORE SCREEN 6 */
+
+    const scoreLevel82Screen6 =
+      document.getElementById("scoreLevel82Screen6");
+
+    if(scoreLevel82Screen6){
+
+      scoreLevel82Screen6.innerText = 0;
+    }
+
+
+    /* RESET VAS */
+
+    vas.style.left = "18%";
+    vas.style.top = "78%";
+
+    vas.style.width = "16%";
+
+    vas.style.transform =
+      "rotate(-90deg)";
+
+
+    /* RESET KURSI */
+
+    kursi.style.left = "60%";
+    kursi.style.top = "78%";
+
+    kursi.style.width = "18%";
+
+    kursi.style.transform =
+      "rotate(-90deg)";
+  }
+
+})();
+  
+
+})();
+
+
+
+/* =========================
+   SCREEN 82 - TOGGLE
+========================= */
+
+(function(){
+
+
+  /* =========================
+     SCORE
+  ========================= */
+
+  const scoreEl =
+    document.getElementById("scoreLevel82");
+
+  let score = 0;
+
+
+  /* SCORE SCREEN 6 */
+
+  const scoreLevel82Screen6 =
+    document.getElementById("scoreLevel82Screen6");
+
+
+  /* =========================
+     LAPTOP 1
+  ========================= */
+
+  const laptop1 =
+    document.getElementById("laptop1");
+
+  const powerLaptop1 =
+    document.getElementById("powerLaptop1");
+
+  let laptop1On = false;
+
+
+  /* =========================
+     LAPTOP 2
+  ========================= */
+
+  const laptop2 =
+    document.getElementById("laptop2");
+
+  const powerLaptop2 =
+    document.getElementById("powerLaptop2");
+
+  let laptop2On = false;
+
+
+  /* =========================
+     LAMPU 1
+  ========================= */
+
+  const lampu1 =
+    document.getElementById("lampu1");
+
+  const powerLampu1 =
+    document.getElementById("powerLampu1");
+
+  let lampu1On = false;
+
+
+  /* =========================
+     LAMPU 2
+  ========================= */
+
+  const lampu2 =
+    document.getElementById("lampu2");
+
+  const powerLampu2 =
+    document.getElementById("powerLampu2");
+
+  let lampu2On = false;
+
+
+  /* =========================
+     KONDISI AWAL
+  ========================= */
+
+  laptop1.style.display = "none";
+  laptop2.style.display = "none";
+
+  lampu1.style.display = "none";
+  lampu2.style.display = "none";
+
+
+  /* =========================
+     UPDATE SCORE
+  ========================= */
+
+  function updateScore(){
+
+    let aktif = 0;
+
+    if(laptop1On) aktif++;
+    if(laptop2On) aktif++;
+
+    if(lampu1On) aktif++;
+    if(lampu2On) aktif++;
+
+    score =
+      Math.round((aktif / 4) * 100);
+
+    scoreEl.innerText = score;
+
+
+    /* SCORE SCREEN 6 */
+
+    if(scoreLevel82Screen6){
+
+      scoreLevel82Screen6.innerText = score;
+    }
+  }
+
+
+  /* =========================
+     TOGGLE LAPTOP 1
+  ========================= */
+
+  powerLaptop1.addEventListener("click", ()=>{
+
+    laptop1On = !laptop1On;
+
+    laptop1.style.display =
+      laptop1On ? "block" : "none";
+
+    updateScore();
+  });
+
+
+  /* =========================
+     TOGGLE LAPTOP 2
+  ========================= */
+
+  powerLaptop2.addEventListener("click", ()=>{
+
+    laptop2On = !laptop2On;
+
+    laptop2.style.display =
+      laptop2On ? "block" : "none";
+
+    updateScore();
+  });
+
+
+  /* =========================
+     TOGGLE LAMPU 1
+  ========================= */
+
+  powerLampu1.addEventListener("click", ()=>{
+
+    lampu1On = !lampu1On;
+
+    lampu1.style.display =
+      lampu1On ? "block" : "none";
+
+    updateScore();
+  });
+
+
+  /* =========================
+     TOGGLE LAMPU 2
+  ========================= */
+
+  powerLampu2.addEventListener("click", ()=>{
+
+    lampu2On = !lampu2On;
+
+    lampu2.style.display =
+      lampu2On ? "block" : "none";
+
+    updateScore();
+  });
+
+
+  /* =========================
+     RESET
+  ========================= */
+
+  document
+    .querySelector("#screen82 .reset-level82")
+    .addEventListener("click", reset82);
+
+
+  function reset82(){
+
+    /* KONDISI AWAL */
+
+    laptop1On = false;
+    laptop2On = false;
+
+    lampu1On = false;
+    lampu2On = false;
+
+
+    /* SEMBUNYIKAN SEMUA */
+
+    laptop1.style.display = "none";
+    laptop2.style.display = "none";
+
+    lampu1.style.display = "none";
+    lampu2.style.display = "none";
+
+
+    /* RESET SCORE */
+
+    updateScore();
+  }
+
+
+  /* =========================
+     SCORE AWAL
+  ========================= */
+
+  updateScore();
+
+})();
