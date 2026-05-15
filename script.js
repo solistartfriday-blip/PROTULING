@@ -3159,3 +3159,111 @@ function reset80(){
   updateScore();
 
 })();
+
+
+/* =========================
+   LOGO PECAHAN
+========================= */
+
+const wrap =
+  document.getElementById(
+    "logoExplosionWrap"
+  );
+
+if(wrap){
+
+  const rows = 5;
+  const cols = 5;
+
+
+  /* =========================
+     BUAT PECAHAN
+  ========================= */
+
+  for(let y = 0; y < rows; y++){
+
+    for(let x = 0; x < cols; x++){
+
+      const piece =
+        document.createElement("div");
+
+      piece.className =
+        "logo-piece";
+
+
+      piece.style.left =
+        (x * 20) + "%";
+
+      piece.style.top =
+        (y * 20) + "%";
+
+
+      piece.style.backgroundPosition =
+        `${x * 25}% ${y * 25}%`;
+
+
+      wrap.appendChild(piece);
+    }
+  }
+
+
+  const pieces =
+    document.querySelectorAll(
+      ".logo-piece"
+    );
+
+
+  /* =========================
+     PECAH
+  ========================= */
+
+  wrap.addEventListener(
+    "mouseenter",
+
+    ()=>{
+
+      pieces.forEach((piece)=>{
+
+        const randomX =
+          (Math.random() - 0.5) * 500;
+
+        const randomY =
+          (Math.random() - 0.5) * 500;
+
+        const randomRotate =
+          (Math.random() - 0.5) * 720;
+
+
+        piece.style.transform =
+          `translate(${randomX}px,
+          ${randomY}px)
+          rotate(${randomRotate}deg)`;
+
+
+        piece.style.opacity =
+          "0";
+      });
+    }
+  );
+
+
+  /* =========================
+     MENYATU
+  ========================= */
+
+  wrap.addEventListener(
+    "mouseleave",
+
+    ()=>{
+
+      pieces.forEach((piece)=>{
+
+        piece.style.transform =
+          "translate(0px,0px) rotate(0deg)";
+
+        piece.style.opacity =
+          "1";
+      });
+    }
+  );
+}
