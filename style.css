@@ -8815,3 +8815,329 @@ width: 10%;
 
   z-index:9999;
 }
+
+
+/* =========================
+   WRAP LOGO
+========================= */
+
+#logoExplosionWrap{
+  position:absolute;
+
+  width:17%;
+
+  aspect-ratio:1/1;
+
+  left:15%;
+  top:20%;
+
+  transform:translate(-50%,-50%);
+
+  z-index:9999;
+}
+
+
+/* =========================
+   PECAHAN
+========================= */
+
+.logo-piece{
+  position:absolute;
+
+  width:20%;
+  height:20%;
+
+  background-image:
+  url('https://i.imgur.com/uugVyTR.png');
+
+  background-size:500% 500%;
+
+  transition:
+  transform 0.8s ease,
+  opacity 0.8s ease;
+}
+
+/* =========================
+   DAUN TERTIUP ANGIN
+========================= */
+
+#daunAngina{
+  position:absolute;
+
+  width:5%;
+
+  left:60%;
+  top:49%;
+
+  z-index:999;
+
+  pointer-events:none;
+
+  animation:
+    daunTerbang 4s ease-in-out infinite;
+}
+
+
+/* =========================
+   ANIMASI ANGIN
+========================= */
+
+@keyframes daunTerbang{
+
+  0%{
+    transform:
+      translateX(0px)
+      translateY(0px)
+      rotate(0deg);
+  }
+
+  20%{
+    transform:
+      translateX(15px)
+      translateY(-8px)
+      rotate(6deg);
+  }
+
+  40%{
+    transform:
+      translateX(35px)
+      translateY(5px)
+      rotate(-4deg);
+  }
+
+  60%{
+    transform:
+      translateX(18px)
+      translateY(-12px)
+      rotate(8deg);
+  }
+
+  80%{
+    transform:
+      translateX(8px)
+      translateY(3px)
+      rotate(-3deg);
+  }
+
+  100%{
+    transform:
+      translateX(0px)
+      translateY(0px)
+      rotate(0deg);
+  }
+}
+
+/* =========================
+   CONTAINER ANGIN
+========================= */
+
+#anginContainer{
+  position:absolute;
+
+  inset:0;
+
+  overflow:hidden;
+
+  pointer-events:none;
+
+  z-index:500;
+}
+
+
+/* =========================
+   GARIS ANGIN
+========================= */
+
+.ingin{
+  position:absolute;
+
+  width:18%;
+
+  height:0.4%;
+
+  border-radius:999px;
+
+  opacity:0.5;
+
+  background:
+    linear-gradient(
+      to right,
+      transparent,
+      rgba(255,255,255,0.9),
+      transparent
+    );
+
+  filter:
+    blur(1px);
+
+  animation:
+    inginBertiup linear infinite;
+}
+
+
+/* =========================
+   POSISI MASING-MASING
+========================= */
+
+.ingin1{
+  top:18%;
+
+  animation-duration:5s;
+  animation-delay:0s;
+}
+
+.ingin2{
+  top:32%;
+
+  animation-duration:7s;
+  animation-delay:1s;
+}
+
+.ingin3{
+  top:48%;
+
+  animation-duration:6s;
+  animation-delay:2s;
+}
+
+.ingin4{
+  top:64%;
+
+  animation-duration:8s;
+  animation-delay:1.5s;
+}
+
+.ingin5{
+  top:78%;
+
+  animation-duration:5.5s;
+  animation-delay:0.5s;
+}
+
+
+/* =========================
+   ANIMASI ANGIN
+========================= */
+
+@keyframes inginBertiup{
+
+  0%{
+    left:-30%;
+
+    transform:
+      translateY(0px)
+      rotate(0deg);
+
+    opacity:2;
+  }
+
+  10%{
+    opacity:0.5;
+  }
+
+  50%{
+    transform:
+      translateY(-8px)
+      rotate(2deg);
+  }
+
+  100%{
+    left:120%;
+
+    transform:
+      translateY(6px)
+      rotate(-2deg);
+
+    opacity:20;
+  }
+}
+
+
+/* =========================
+   BUTTON SCREEN 74 -> 82
+========================= */
+
+#screen74 .to-screen82-from74b{
+  position:absolute;
+
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 13%;
+
+  transform:translate(-50%,-50%);
+
+  background:transparent;
+
+  border:none;
+
+  cursor:pointer;
+
+  z-index:99999;
+}
+
+
+/* =========================
+   BUTTON SCREEN 82 -> 74
+========================= */
+
+#screen82 .to-screen74-from82b{
+  position:absolute;
+
+  width: 10%;
+  height: 12%;
+  top: 53%;
+  left: 87%;
+
+
+  transform:translate(-50%,-50%);
+
+  background:transparent;
+
+  border:none;
+
+  cursor:pointer;
+
+  z-index:99999;
+}
+
+/* =========================
+   GAMBAR SCREEN 6
+========================= */
+
+#gambarScreen6{
+  position:absolute;
+
+  width:9%;
+
+  left:72%;
+  top:35%;
+
+  transform:translate(-50%,-50%);
+
+  z-index:9999;
+
+  pointer-events:none;
+}
+
+
+/* =========================
+   GAMBAR 2 SCREEN 6
+========================= */
+
+#gambarScreen6_2{
+  position:absolute;
+
+  width:9%;
+
+  left:37%;
+  top:35%;
+
+  transform:translate(-50%,-50%);
+
+  z-index:9999;
+
+  pointer-events:none;
+}
+
+
